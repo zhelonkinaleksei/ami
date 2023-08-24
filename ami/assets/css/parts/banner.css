@@ -1,0 +1,17 @@
+.section__banner-container {
+  max-width: 116rem;
+  padding: 0rem 1.5rem;
+  margin: 0 auto;
+  min-height: 50rem;
+}
+
+.section__banner-slide {
+  border-radius: 2rem;
+  position: relative;
+}
+
+.section__banner-slide-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

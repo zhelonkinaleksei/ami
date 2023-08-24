@@ -1,0 +1,396 @@
+.section__banner {
+
+
+}
+.section__banner-container {
+    max-width: 116rem;
+    padding: 0rem 1.5rem;
+    margin: 0 auto;
+
+  
+
+}
+.section__banner-swiper{
+    width: 100%;
+    .swiper-pagination {
+        .swiper-pagination-bullet{
+            background:#9CA3AF!important ;
+            
+        }
+        .swiper-pagination-bullet-active{
+            background: #fff!important;
+        }
+    }
+}
+
+.section__banner-slide {
+    border-radius: 2rem;
+    position: relative;
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 3.2rem;
+    padding-left: 5.6rem;
+}
+.section__banner-slide-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.section__banner-slide-img-plansh{
+    display: none;
+
+}
+
+.section__banner-slide-img-mobile{
+    display: none;
+}
+
+.section__banner-slide-title {
+    max-width: 35rem;
+    color: var(--neutral-500, #6B7680);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 32.5px */
+    span{
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: 'Bebas Neue';
+        font-size: 10rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 100px */
+        letter-spacing: -0.05rem;
+        background: linear-gradient(164deg, #30B5DF 0%, #0692B5 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 1.6rem;
+
+    }
+
+}
+.section__banner-slide-subtitle {
+    color: var(--neutral-900, #111C27);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 19.5px */
+}
+.section__banner-slide-buttons {
+    margin-top: 2.4rem;
+    display: flex;
+    column-gap: 0.8rem;
+
+
+}
+.button {
+    cursor: pointer;
+    color: #FFF;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 19.5px */
+    padding: 1.8rem 2.4rem;
+    border-radius: 0.8rem;
+    background-color: var(--primary-500, #30B5DF);
+    transition: all 0.4s ease;
+    &:hover{
+        background-color: var(--primary-500, #2e95b4); 
+    }
+
+}
+.button-green {
+    background-color: var(--primary-500, #25D366);
+    &:hover{
+        background-color: var(--primary-500, #2ab15c); 
+    }    
+}
+.section__banner-slide-row {
+    display: flex;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2.4rem;
+
+}
+.section__banner-slide-row-item {
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+
+
+}
+.section__banner-slide-row-item-icon {
+    flex: 2.4rem;
+    height: 2.4rem;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.section__banner-slide-row-item-text {
+    color: var(--neutral-900, #111827);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+
+}
+.section__banner-slide-socials {
+    display: flex;
+    margin-top: 0.9rem;
+    align-self: flex-end;
+    column-gap: 0.8rem;
+
+}
+.section__banner-slide-social {
+    position: relative;
+    min-height: 6.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.86rem;
+    border: 0.0358rem solid var(--neutral-300, #D1D5DB);
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(0.85rem);
+    padding: 2rem;
+
+
+}
+.section__banner-slide-social-icon {
+    width: 100%;
+    height: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+.section__banner-slide-social-count {
+    min-width: 3.2rem;
+    position: absolute;
+    top: -1rem;
+    right: -0.5rem;
+    color: var(--gray-50, #FAFAFA);
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Raleway';
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 163%; /* 163.636% */
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    padding: 0.3rem 0.8rem;
+    border-radius: 2.4rem;
+    background: var(--primary-500, #30B5DF);
+
+}
+
+
+@media(max-width:768px){
+
+
+    
+    .section__banner-slide {
+        border-radius: 1.6rem;
+        min-height: 51.7rem;
+        padding: 2.4rem;
+        padding-left: 2.4rem;
+        justify-content: center;
+        position: relative;
+    }
+    .section__banner-slide-img{
+       display: none;
+    }
+    .section__banner-slide-img-plansh{
+        display: block;
+     }
+    .section__banner-slide-title {
+        font-size: 2.5rem;
+        span{
+            font-size: 10rem;
+            padding-top: 1.6rem;
+    
+        }
+    
+    }
+    .section__banner-slide-subtitle {
+        font-size: 1.5rem;
+        margin-top: 1.6rem;
+    }
+    .section__banner-slide-buttons {
+        margin-top: 2.4rem;
+        column-gap: 0.8rem;
+    
+    
+    }
+    .button {
+        font-size: 1.5rem;
+        padding: 1.8rem 2.4rem;
+        border-radius: 0.8rem;
+    
+    }
+    .section__banner-slide-row {
+        gap: 1.6rem;
+        margin-top: 2.4rem;
+    
+    }
+    .section__banner-slide-row-item {
+        column-gap: 0.8rem;
+    
+    
+    }
+    .section__banner-slide-row-item-icon {
+        flex: 2.4rem;
+        height: 2.4rem;
+    }
+    .section__banner-slide-row-item-text {
+        font-size: 1.5rem;
+    
+    }
+    .section__banner-slide-socials {
+        display: none;
+    
+    }
+}
+
+
+@media(max-width:576px){
+
+
+    
+    .section__banner-slide {
+        border-radius: 1.6rem;
+        min-height: 66.6rem;
+        padding: 1.6rem;
+        padding-left: 1.6rem;
+        padding-top: 3.2rem;
+        justify-content: space-between;
+
+    }
+    .section__banner-slide-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section__banner-slide-img-plansh{
+        display: none;
+     }
+     .section__banner-slide-img-mobile{
+        display: block;
+
+     }
+    .section__banner-slide-title {
+        font-size: 2rem;
+        max-width: 20rem;
+        text-align: center;
+        span{
+            font-size: 6.5rem;
+            padding-top: 0.6rem;
+    
+        }
+    
+    }
+    .section__banner-slide-subtitle {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1.6rem;
+        max-width: 20rem;
+    }
+    .section__banner-slide-buttons {
+        flex: 1 1 100%;
+        justify-content: flex-end;
+        margin-top: 2.4rem;
+        flex-direction: column;
+        width: 100%;
+        column-gap: 0.8rem;
+        row-gap: 0.8rem;
+    
+    
+    }
+    .button {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1.8rem 2.4rem;
+        border-radius: 0.8rem;
+    
+    }
+    .section__banner-slide-row {
+        display: none;
+        gap: 1.6rem;
+        margin-top: 2.4rem;
+    
+    }
+    .section__banner-slide-row-item {
+        column-gap: 0.8rem;
+    
+    
+    }
+    .section__banner-slide-row-item-icon {
+        flex: 2.4rem;
+        height: 2.4rem;
+    }
+    .section__banner-slide-row-item-text {
+        font-size: 1.5rem;
+    
+    }
+    .section__banner-slide-socials {
+        margin-top: 3.6rem;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    
+    }
+    .section__banner-slide-social{
+   
+        padding: 1.5rem 1.5rem;
+        max-width: 12.4rem;
+        min-height: 4.7rem;
+        justify-content: space-between;
+
+    }
+    .section__banner-slide-social-icon{
+        width: 100%;
+        height: 100%;
+        img{
+            object-position: center;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+    .section__banner-slide-social-count{
+        top: -0.8rem;
+        font-size: 0.751rem;
+        min-width: 2.2rem;
+
+
+    }
+    .section__banner-swiper{
+        .swiper-pagination {
+           display: none;
+        }
+        
+    }
+}

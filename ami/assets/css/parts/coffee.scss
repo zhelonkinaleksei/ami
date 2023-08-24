@@ -1,0 +1,321 @@
+.section__coffee {
+    margin-top: 12rem;
+    margin-bottom: 4.6rem;
+    height: 64.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: var(--gradients-linear, linear-gradient(119deg, #DEEFFF 0%, #F9FAFB 96.64%));
+}
+.section__coffee-container {
+    width: 100%;
+    max-width: 116rem;
+    margin: 0 auto;
+    padding: 0rem 1.5rem;
+    height: 100%;
+    position: relative;
+}
+.section__coffee-inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 4.2rem;
+    z-index: 1;
+    height: 100%;
+}
+.section__coffee-bg {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom:5rem;
+    width: 100%;
+    max-width: 80.5rem;
+    height: 68.8rem;
+    z-index: 0;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.section__coffee-text {
+    max-width: 49.3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap:3.2rem ;
+}
+.section__coffee-title {
+    color: var(--neutral-900, #111827);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Bebas Neue';
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 70px */
+    span{
+        color: var(--primary-base, #30B5DF);
+
+    }
+}
+.section__coffee-text-text {
+    color: var(--neutral-900, #111C27);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 25.5px */
+}
+.section__coffee-items {
+    position: absolute;
+    left: 0rem;
+    bottom: 3.4rem;
+    width: 100%;
+    display: flex;
+    column-gap: 1.6rem;
+    z-index: 3;
+
+}
+.section__coffee-item {
+    position: relative;
+    padding: 3.2rem;
+    width: 100%;
+    max-width: 55.7rem;
+    min-height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.6rem;
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(1.8rem);
+    .button {
+        align-self: flex-start;
+        margin-top: 0rem;
+    }
+}
+.section__coffee-item-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section__coffee-item-left-top {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.4rem;
+    .section__visit-left-ul {
+        margin-top: 0rem;
+        row-gap: 1.2rem;
+    }
+}
+.section__coffee-item-title {
+    color: #0B1F35;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%; /* 118.182% */
+}
+
+
+.section__coffee-item-icon {
+
+    flex: 0 0 17.2rem;
+    height: 5.4rem;
+    background-image: url(../img/logo.svg);
+    background-size: cover;
+
+}
+
+.section__coffee-item-icon-second {
+    flex: 0 0 14.481rem;
+    z-index: -1;
+    width: 100%;
+    max-width: 14.481rem;
+    height:13.46rem;
+    position: absolute;
+    top: 2.4rem;
+    right:2.4rem;
+    background-image: url(../img/banks.svg);
+    background-size: cover;
+
+}
+
+@media(max-width:992px){
+    .section__coffee {
+        margin-top: 3rem;
+        margin-bottom: 2.5rem;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .section__coffee-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding-top: 3rem;
+        z-index: 1;
+        height: 100%;
+    }
+    .section__coffee-bg {
+        z-index: 1;
+        position: relative;
+        left: 0;
+        bottom:auto;
+        width: 100%;
+        max-width:34.4rem;
+        height: 100%;
+        max-height: 30.1rem;
+    }
+    .section__coffee-text {
+        max-width: 34.4rem;
+        row-gap:2.4rem ;
+    }
+    .section__coffee-title {
+        font-size: 4rem;
+    }
+    .section__coffee-text-text {
+        font-size: 1.5rem;
+    }
+    .section__coffee-items {
+        position: relative;
+        left: 0rem;
+        bottom: auto;
+        width: 100%;
+        display: flex;
+        column-gap: 1.6rem;
+    
+    }
+    .section__coffee-item {
+
+        position: relative;
+        padding: 3.2rem 2.4rem 4rem 2.4rem;
+        width: 100%;
+        max-width:none;
+        height: auto;
+        min-height: 30rem;
+        row-gap: 2.4rem;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        .button{
+            margin-top: 4rem;
+        }
+        &:first-child{
+            max-width: 30.5rem;
+            justify-content: flex-start;
+        }
+    }
+    .section__coffee-item-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .section__coffee-item-left-top {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.4rem;
+        .section__visit-left-ul {
+            margin-top: 0rem;
+            row-gap: 1.2rem;
+        }
+    }
+    .section__coffee-item-title {
+        color: #0B1F35;
+        font-size: 2.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 118%; /* 118.182% */
+    }
+    
+    
+    .section__coffee-item-icon {
+    
+        flex: 0 0 5.4rem;
+        width: 17.2rem;
+    
+    }
+    
+    .section__coffee-item-icon-second {
+        flex: 0 0 5.4rem;
+
+        z-index: 1;
+        width: 100%;
+        max-width: 14.481rem;
+        height:auto;
+        position: relative;
+        top:auto;
+        right:auto;
+        background-image: url(../img/banks-plansh.svg);
+    
+    }
+}
+
+@media(max-width:576px){
+    .section__coffee {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .section__coffee-inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top: 5.4rem;
+        row-gap: 3rem;
+    }
+
+    .section__coffee-items {
+        margin-top: -5rem;
+        flex-direction: column;
+       row-gap: 1.3rem;
+    
+    }
+    .section__coffee-item {
+ 
+        padding: 3.2rem 2.4rem 4rem 2.4rem;
+        width: 100%;
+        max-width:none;
+        height: auto;
+        min-height: 30rem;
+        .button{
+            margin-top: 4rem;
+        }
+        &:first-child{
+            max-width: none;
+            justify-content: flex-start;
+        }
+    }
+    .section__coffee-item-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .section__coffee-item-left-top {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.4rem;
+        .section__visit-left-ul {
+            margin-top: 0rem;
+            row-gap: 1.2rem;
+        }
+    }
+    .section__coffee-item-title {
+        color: #0B1F35;
+        font-size: 2.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 118%; /* 118.182% */
+    }
+    
+    
+    .section__coffee-item-icon {
+    
+        flex: 0 0 5.4rem;
+        width: 17.2rem;
+    
+    }
+    
+    .section__coffee-item-icon-second {
+        flex: 0 0 13.4rem;
+        background-image: url(../img/banks.svg);
+    
+    }
+}
