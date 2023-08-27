@@ -15,6 +15,9 @@
     max-width: 38rem;
     display: flex;
     flex-direction: column;
+    .section__banner-slide-row-item-text{
+        color: var(--neutral-900, #111827);
+    }
     .header__logo {
     }
     .header__logo-img {
@@ -87,7 +90,7 @@
   .custom-checkbox label {
     display: inline-block;
     cursor: pointer;
-    padding-left: 24px;
+    padding-left: 2.4rem;
     position: relative;
   }
   
@@ -105,10 +108,12 @@
   }
   
   .custom-checkbox input[type="checkbox"]:checked + label:before {
-    content: '✓';
-    font-size: 1.8rem;
-    padding-left: 0.2rem;
-    color: #111827;
+    content: '';
+    background-image: url(../img/galka-footer.png);
+    background-size: cover;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 0.3333rem;
 
 
   }
@@ -185,6 +190,10 @@
             font-style: normal;
             font-weight: 400;
             line-height: 150%; /* 22.5px */
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                color: var(--primary-500, #30B5DF);
+            }
         }
     }
 }
@@ -278,6 +287,9 @@
             max-width:13.1rem ;
             text-align: center;
         }
+        .section__banner-slide-row-item-text{
+            color: var(--neutral-900, #111827);
+        }
         .footer__right-top-mobile {
             display: flex;
             flex-direction: column;
@@ -338,6 +350,9 @@
         }
         .section__visit-left-input{
             max-width: none;
+        }
+        .section__banner-slide-row-item-text{
+            color: var(--neutral-900, #111827);
         }
         .button{
             width: 100%;
@@ -424,8 +439,10 @@
         display: flex;
         flex-direction: column;
         row-gap: 1.6rem;
+        column-gap: 0rem;
         padding: 2.4rem 0rem;
     }
+   
 
 
 }

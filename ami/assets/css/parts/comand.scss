@@ -11,13 +11,13 @@
     font-family: 'Bebas Neue';
     font-size: 6.7rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 125%; /* 83.75px */
 }
 .section__comand-subtitle {
     margin: 0 auto;
-    margin-top: 3.2rem;
-    max-width: 60rem;
+    margin-top: 2.7rem;
+    max-width: 61rem;
     color: var(--neutral-900, #111C27);
     text-align: center;
     font-variant-numeric: lining-nums proportional-nums;
@@ -246,6 +246,17 @@
     .section__comand-container {
         padding:3.5rem 1.5rem ;
     }
+    .section__comand-tabs {
+        overflow: hidden;
+        margin: 0;
+        margin-top: 3.2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap!important;
+        min-width: 0px;
+        width: 100%;
+    }
     .slide__doctors-swiper {
         padding-bottom: 4rem!important ;
      
@@ -289,6 +300,7 @@
         margin: 0 auto;
         margin-top: 2rem;
         font-size: 1.7rem;
+        text-align: left;
     
     
     }

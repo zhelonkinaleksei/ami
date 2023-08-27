@@ -16,18 +16,24 @@ if (screenWidth > 992) {
         prevEl: swiperContainer.querySelector(".slide__doctors-swiper-navigation-prev"),
       },
       slidesPerView:'auto',
-      mousewheel: true,
+      mousewheel: false,
       grabCursor: true,
     });
   });
+
+}
+if (screenWidth < 992) {
+  $('.section__comand-tabs').slick({
+    slidesToShow: 1,
+    variableWidth: true,
+    infinite:false,
+  
+  });
+
 }
 
 
-  $('.section__comand-tabs').slick({
-    slidesToShow: 'auto',
-    variableWidth: true,
 
-  });
 
 
 // Получаем текущую ширину экрана
@@ -43,7 +49,7 @@ if (screenWidth > 992) {
       },
 
       slidesPerView:'auto',
-      mousewheel: true,
+      mousewheel: false,
       grabCursor: true,
     });
   });

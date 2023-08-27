@@ -41,26 +41,36 @@
     width: 100%;
     height: 100%;
     z-index: -1;
+    border-radius: 2rem;
     img{
         width: 100%;
         height: 100%;
         object-fit: cover;
         object-position: center;
+        border-radius: 2rem;
     }
 }
 
 .section__banner-slide-img-plansh{
     display: none;
+    border-radius: 2rem;
+    img{
+        border-radius: 2rem;
+    }
 
 }
 
 .section__banner-slide-img-mobile{
     display: none;
+    border-radius: 2rem;
+    img{
+        border-radius: 2rem;
+    }
 }
 
 .section__banner-slide-title {
     max-width: 35rem;
-    color: var(--neutral-500, #6B7680);
+    color: var(--neutral-50, #F9FAFB);
     font-variant-numeric: lining-nums proportional-nums;
     font-size: 2.5rem;
     font-style: normal;
@@ -71,23 +81,21 @@
         font-family: 'Bebas Neue';
         font-size: 10rem;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 100%; /* 100px */
         letter-spacing: -0.05rem;
-        background: linear-gradient(164deg, #30B5DF 0%, #0692B5 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+
+        color: var(--neutral-50, #F9FAFB);
         padding-top: 1.6rem;
 
     }
 
 }
 .section__banner-slide-subtitle {
-    color: var(--neutral-900, #111C27);
+    color: var(--neutral-50, #F9FAFB);
     font-variant-numeric: lining-nums proportional-nums;
     font-size: 1.5rem;
-    margin-top: 1.6rem;
+    margin-top: 0rem;
     font-style: normal;
     font-weight: 400;
     line-height: 130%; /* 19.5px */
@@ -112,14 +120,14 @@
     background-color: var(--primary-500, #30B5DF);
     transition: all 0.4s ease;
     &:hover{
-        background-color: var(--primary-500, #2e95b4); 
+        background-color: var(--primary-500, #16A3D0); 
     }
 
 }
 .button-green {
     background-color: var(--primary-500, #25D366);
     &:hover{
-        background-color: var(--primary-500, #2ab15c); 
+        background-color: var(--primary-500, #22C25E); 
     }    
 }
 .section__banner-slide-row {
@@ -148,7 +156,7 @@
     }
 }
 .section__banner-slide-row-item-text {
-    color: var(--neutral-900, #111827);
+    color: var(--neutral-50, #F9FAFB);
     font-variant-numeric: lining-nums proportional-nums;
     font-size: 1.5rem;
     font-style: normal;
@@ -394,3 +402,203 @@
         
     }
 }
+
+
+.section__banner-slide-img-mob-all{
+    display: none;
+}
+.section__banner-slide-allin {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    .section__banner-slide-top{
+        max-width: none;
+    }
+    .section__banner-slide-title {
+
+       span{
+        color: var(--neutral-white, #FFF);
+        font-family: 'Bebas Neue';
+        font-size: 7.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 90%; /* 67.5px */
+        letter-spacing: -0.0375rem;
+       }
+
+
+        
+    }
+    .section__banner-slide-subtitle {
+        opacity: 0.8;
+        color: var(--neutral-white, #FFF);
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 21px */
+        max-width: 34.6rem;
+        margin-top: 1.2rem;
+    }
+    .section__visit-left-form {
+        margin-top: 1.9rem;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.4rem;
+    }
+    .section__visit-left-form-top {
+        display: flex;
+        flex-direction: row;
+        column-gap: 0.9rem;
+    }
+    .section__visit-left-input {
+        max-width: 24.8rem;
+    }
+    .custom-checkbox label:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        border-radius: 0.3333rem;
+        border: 0.0667rem solid var(--neutral-50, #F9FAFB);
+        background-color: #ffffff00;
+        top: -1.5rem;
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+    .custom-checkbox-text {
+        opacity: 0.8;
+        color: var(--neutral-white, #FFF);
+        a{
+            opacity: 0.8;
+            color: var(--neutral-white, #FFF);
+        }
+        
+    }
+    .custom-checkbox{
+        padding-left: 0rem;
+    }
+    .custom-checkbox label {
+        display: inline-block;
+        cursor: pointer;
+        padding-left: 1.2rem;
+        position: relative;
+      }
+    
+}
+
+@media(max-width:992px){
+
+    
+.section__banner-slide-allin {
+    .section__visit-left-form {
+        align-self: flex-start;
+ 
+     } 
+
+     .section__banner-slide-socials{
+        margin-top: 2.1rem;
+     }
+     .section__banner-slide-img{
+        display: block;
+        img{
+            object-position: right;
+        }
+     }
+    
+}
+
+}
+@media(max-width:768px){
+
+    
+    .section__banner-slide-allin {
+        .section__visit-left-form {
+            align-self: flex-start;
+     
+         } 
+    
+         .section__banner-slide-socials{
+            margin-top: 2.1rem;
+            display: flex;
+         }
+      
+        
+    }
+    
+    }
+
+    @media(max-width:576px){
+
+    
+    .section__banner-slide-allin {
+
+        .section__visit-left-form {
+            align-self: flex-start;
+     
+         } 
+         .section__banner-slide-title{
+            span{
+                font-size: 4rem;
+            }
+            text-align: left;
+            align-self: flex-start;
+            max-width: none;
+  
+         }
+         .section__banner-slide-subtitle{
+            align-self: flex-start;
+            text-align: left;
+         }
+         .section__banner-slide-socials{
+            margin-top: 2.1rem;
+            display: none;
+         }
+         .section__banner-slide-img{
+            display: none;
+            img{
+                object-position: center;
+                width: 100%;
+            }
+         }
+         .section__banner-slide-img-mob-all{
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 2rem;
+            z-index: -1;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 2rem;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+         .section__visit-left-form{
+            width: 100%;
+            max-width: none;
+         }
+         .section__visit-left-form-top{
+            width: 100%;
+
+            flex-direction: column;
+            row-gap: 0.8rem;
+            .section__visit-left-input{
+                max-width: none;
+                padding: 1.8rem 2.4rem;
+                text-align: center;
+
+            }
+
+         }
+         .custom__chexbox-inner{
+            display: none;
+        }
+        
+    }
+    
+    }

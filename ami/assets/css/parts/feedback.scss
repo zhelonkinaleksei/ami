@@ -17,12 +17,12 @@
 }
 .section__feedback-subtitle {
     color: var(--primary-base-dark, #16A3D0);
-    text-align: center;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-size: 3.2rem;
+    font-family: 'Bebas Neue';
+    font-size: 43px;
     font-style: normal;
     font-weight: 500;
-    line-height: 125%; /* 40px */
+    line-height: 110%; /* 47.3px */
+    text-align: center;
 
 }
 .section__feedback-title {
@@ -37,7 +37,7 @@
 }
 
 .section__feedback-swiper{
-    margin-top: 9rem;
+    margin-top: 8rem;
 }
 .section__feedback-slide {
     display: flex;

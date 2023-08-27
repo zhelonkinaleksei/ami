@@ -4,7 +4,7 @@ var swiper = new Swiper(".section__proccess-swiper", {
     },
 	slidesPerView: 'auto', // показывать по 1 изображению
 	spaceBetween: 16,
-	mousewheel: true, // можно прокручивать изображения колёсиком мыши
+	mousewheel: false,
   
 	grabCursor: true, // менять иконку курсора
   });

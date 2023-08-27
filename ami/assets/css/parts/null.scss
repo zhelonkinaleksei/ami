@@ -94,19 +94,19 @@
 
 html{
   scroll-behavior: smooth; /* Включаем плавный скролл */
-  @media(min-width:1441px){
-    font-size: calc(100vw / 1440 * 10);
-  }
+ // @media(min-width:1441px){
+  //  font-size: calc(100vw / 1440 * 10);
+ // }
 
-  @media(max-width:1440px){
+ // @media(max-width:1440px){
     font-size: 62.5%; 
-  }
+ // }
 
 }
 body{
 
-  @media(max-width:1440px){
+ // @media(max-width:1440px){
     font-size: 1.6rem;   
-  }
+ // }
 
 }
