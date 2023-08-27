@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue:regular" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -31,18 +30,50 @@
         <nav class="header__nav">
             <ul>
                 <li class="head__drop-inner">
-                    <a onclick="event.preventDefault();" href="" class="head__drop" ><span>Услуги</span></a>
+                    <a  href="" class="head__drop" ><span>Услуги</span></a>
                     <div class="drop__list">
-                         <a href="" class="drop__list-item">Услуга</a>
-                        <a href="" class="drop__list-item">Услуга</a>
-                    </div>
+                        <a href="" class="drop__list-item">
+                            <div class="drop__list-item-title">All-on-4 Имплантация</div>
+                            <div class="drop__list-item-subtitle">Полное восстановление зубов за 1 день</div>
+                        </a>
+                        <a href="" class="drop__list-item">
+                            <div class="drop__list-item-title">Лечение зубов</div>
+                            <div class="drop__list-item-subtitle">Терапия</div>
+                        </a>
+                        <a href="" class="drop__list-item">
+                            <div class="drop__list-item-title">Выравнивание зубов</div>
+                            <div class="drop__list-item-subtitle">Ортодонтия</div>
+                        </a>
+                        <a href="" class="drop__list-item">
+                            <div class="drop__list-item-title">Эстетика</div>
+                            <div class="drop__list-item-subtitle">Ортопедия</div>
+                        </a>
+                        <a href="" class="drop__list-item">
+                            <div class="drop__list-item-title">Калькулятор стоимости</div>
+                            <div class="drop__list-item-subtitle">Рассчитайте предварительную стоимость лечения.</div>
+                        </a>
+                        <a href="" class="drop__list-item">
+                            <div class="drop__list-item-title drop__list-item-title-star">Бесплатная консультация</div>
+                            <div class="drop__list-item-subtitle">Получите подробный план лечения 
+                                в Вашей ситуации.</div>
+                        </a>
+
+                   </div>
                 </li>
                 <li class="head__drop-inner">
-                    <a onclick="event.preventDefault();" href="" class="head__drop" ><span>О клинике</span></a>
+                    <a  href="" class="head__drop" ><span>О клинике</span></a>
                     <div class="drop__list">
-                        <a href="" class="drop__list-item">Пункт меню</a>
-                        <a href="" class="drop__list-item">Пункт меню</a>
-                    </div>
+                        <a href="" class="drop__list-item">
+                            <div class="drop__list-item-title">Врачи</div>
+                           
+                        </a>
+                        <a href="" class="drop__list-item">
+                            <div class="drop__list-item-title">Зуботехническая лаборатория</div>
+                            <div class="drop__list-item-subtitle">Терапия</div>
+                        </a>
+
+
+                   </div>
                 </li>
                 <li>
                     <a class="item__with-place" href="">
@@ -60,6 +91,29 @@
                     <a href="">Контакты</a>
                 </li>
             </ul>
+            <div class="header__mobile-block">
+                <div class="header__mobile-block-left">
+                    <div class="header__mobile-block-left-socials">
+                        <a href="" class="header__mobile-block-left-social">
+                            <img src="assets/img/wa.svg" alt="">
+                        </a>
+                        <a href="" class="header__mobile-block-left-social">
+                            <img src="assets/img/tg.svg" alt="">
+                        </a>
+                        <a href="" class="header__mobile-block-left-social">
+                            <img src="assets/img/viber.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__mobile-block-left-info">
+                        <div class="header__mobile-block-left-info-item">Пн-Вс 9:00-21:00  </div>
+                        <div class="header__mobile-block-left-info-item">г. Москва, ул. Таганская, д. 26, стр. 1 </div>
+                    </div>
+                </div>
+                <div class="header__mobile-block-right">
+                    <a href="tel:+7 391 000 00 00" class="header__mobile-block-right-tel">+7 391 000 00 00</a>
+                    <a href="" class="header__mobile-block-right-cons">Бесплатная консультация</a>
+                </div>
+            </div>
         </nav>
         <div class="menu__icon">
             <div class="menu__icon-text">Меню</div>
@@ -76,7 +130,105 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide section__banner-slide">
                         <div class="section__banner-slide-img">
-                            <img src="assets/img/banner.png" alt="">
+                            <picture>
+                              
+                                <source srcset="assets/img/banner.avif" type="image/avif">
+                         
+                                <source srcset="assets/img/banner.webp" type="image/webp">
+                            
+                                <img src="assets/img/banner.png" alt="Описание изображения">
+                               
+                            </picture>
+                        </div>
+                        <div class="section__banner-slide-img section__banner-slide-img-plansh">
+                            <picture>
+                              
+                                <source srcset="assets/img/banner-plansh.avif" type="image/avif">
+                         
+                                <source srcset="assets/img/banner-plansh.webp" type="image/webp">
+                            
+                                <img src="assets/img/banner-plansh.png" alt="Описание изображения">
+                               
+                            </picture>
+              
+                        </div>
+                        <div class="section__banner-slide-img section__banner-slide-img-mobile">
+                            <picture>
+                              
+                                <source srcset="assets/img/banner-mob.avif" type="image/avif">
+                         
+                                <source srcset="assets/img/banner-mob.webp" type="image/webp">
+                            
+                                <img src="assets/img/banner-mob.png" alt="Описание изображения">
+                               
+                            </picture>
+
+                        </div>
+                        <div class="section__banner-slide-top">
+                            <div class="section__banner-slide-title">Cтоматология <span>AMICLINIC</span></div>
+                            <div class="section__banner-slide-subtitle">Заботливая стоматология, которую вы полюбите!</div>
+                        </div>
+
+                        <div class="section__banner-slide-buttons">
+                            <div class="button">Запись на первый приём</div>
+                            <div class="button button-green">Узнать стоимость WhatsApp</div>
+                        </div>
+                        <div class="section__banner-slide-row">
+                            <div class="section__banner-slide-row-item">
+                                <div class="section__banner-slide-row-item-icon">
+                                    <img src="assets/img/time-white.svg" alt="">
+                                </div>
+                                <div class="section__banner-slide-row-item-text">
+                                    Пн-Вс 9:00-21:00
+                                </div>
+                            </div>
+                            <div class="section__banner-slide-row-item">
+                                <div class="section__banner-slide-row-item-icon">
+                                    <img src="assets/img/geo-svg.svg" alt="">
+                                </div>
+                                <div class="section__banner-slide-row-item-text">
+                                    г. Москва, ул. Таганская, д. 26, стр. 1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section__banner-slide-socials">
+                            <a href="" class="section__banner-slide-social">
+                                <div class="section__banner-slide-social-icon">
+                                    <img src="assets/img/zoon.svg" alt="">
+                                </div>
+                                <div class="section__banner-slide-social-count">
+                                    60
+                                </div>
+                            </a>
+                            <a href="" class="section__banner-slide-social">
+                                <div class="section__banner-slide-social-icon">
+                                    <img src="assets/img/pro.svg" alt="">
+                                </div>
+                                <div class="section__banner-slide-social-count">
+                                    34
+                                </div>
+                            </a>
+                            <a href="" class="section__banner-slide-social">
+                                <div class="section__banner-slide-social-icon">
+                                    <img src="assets/img/otzovik.svg" alt="">
+                                </div>
+                                <div class="section__banner-slide-social-count">
+                                   4
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide section__banner-slide">
+                        <div class="section__banner-slide-img">
+                            <picture>
+                              
+                                <source srcset="assets/img/banner.avif" type="image/avif">
+                         
+                                <source srcset="assets/img/banner.webp" type="image/webp">
+                            
+                                <img src="assets/img/banner.png" alt="Описание изображения">
+                               
+                            </picture>
                         </div>
                         <div class="section__banner-slide-img section__banner-slide-img-plansh">
                             <img src="assets/img/banner-plansh.png" alt="">
@@ -96,7 +248,7 @@
                         <div class="section__banner-slide-row">
                             <div class="section__banner-slide-row-item">
                                 <div class="section__banner-slide-row-item-icon">
-                                    <img src="assets/img/time.svg" alt="">
+                                    <img src="assets/img/time-white.svg" alt="">
                                 </div>
                                 <div class="section__banner-slide-row-item-text">
                                     Пн-Вс 9:00-21:00
@@ -104,7 +256,7 @@
                             </div>
                             <div class="section__banner-slide-row-item">
                                 <div class="section__banner-slide-row-item-icon">
-                                    <img src="assets/img/geo.svg" alt="">
+                                    <img src="assets/img/geo-svg.svg" alt="">
                                 </div>
                                 <div class="section__banner-slide-row-item-text">
                                     г. Москва, ул. Таганская, д. 26, стр. 1
@@ -140,7 +292,15 @@
                     </div>
                     <div class="swiper-slide section__banner-slide">
                         <div class="section__banner-slide-img">
-                            <img src="assets/img/banner.png" alt="">
+                            <picture>
+                              
+                                <source srcset="assets/img/banner.avif" type="image/avif">
+                         
+                                <source srcset="assets/img/banner.webp" type="image/webp">
+                            
+                                <img src="assets/img/banner.png" alt="Описание изображения">
+                               
+                            </picture>
                         </div>
                         <div class="section__banner-slide-img section__banner-slide-img-plansh">
                             <img src="assets/img/banner-plansh.png" alt="">
@@ -152,6 +312,7 @@
                             <div class="section__banner-slide-title">Cтоматология <span>AMICLINIC</span></div>
                             <div class="section__banner-slide-subtitle">Заботливая стоматология, которую вы полюбите!</div>
                         </div>
+
                         <div class="section__banner-slide-buttons">
                             <div class="button">Запись на первый приём</div>
                             <div class="button button-green">Узнать стоимость WhatsApp</div>
@@ -159,7 +320,7 @@
                         <div class="section__banner-slide-row">
                             <div class="section__banner-slide-row-item">
                                 <div class="section__banner-slide-row-item-icon">
-                                    <img src="assets/img/time.svg" alt="">
+                                    <img src="assets/img/time-white.svg" alt="">
                                 </div>
                                 <div class="section__banner-slide-row-item-text">
                                     Пн-Вс 9:00-21:00
@@ -167,70 +328,7 @@
                             </div>
                             <div class="section__banner-slide-row-item">
                                 <div class="section__banner-slide-row-item-icon">
-                                    <img src="assets/img/geo.svg" alt="">
-                                </div>
-                                <div class="section__banner-slide-row-item-text">
-                                    г. Москва, ул. Таганская, д. 26, стр. 1
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section__banner-slide-socials">
-                            <a href="" class="section__banner-slide-social">
-                                <div class="section__banner-slide-social-icon">
-                                    <img src="assets/img/zoon.svg" alt="">
-                                </div>
-                                <div class="section__banner-slide-social-count">
-                                    60
-                                </div>
-                            </a>
-                            <a href="" class="section__banner-slide-social">
-                                <div class="section__banner-slide-social-icon">
-                                    <img src="assets/img/pro.svg" alt="">
-                                </div>
-                                <div class="section__banner-slide-social-count">
-                                    34
-                                </div>
-                            </a>
-                            <a href="" class="section__banner-slide-social">
-                                <div class="section__banner-slide-social-icon">
-                                    <img src="assets/img/otzovik.svg" alt="">
-                                </div>
-                                <div class="section__banner-slide-social-count">
-                                   4
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide section__banner-slide">
-                        <div class="section__banner-slide-img">
-                            <img src="assets/img/banner.png" alt="">
-                        </div>
-                        <div class="section__banner-slide-img section__banner-slide-img-plansh">
-                            <img src="assets/img/banner-plansh.png" alt="">
-                        </div>
-                        <div class="section__banner-slide-img section__banner-slide-img-mobile">
-                            <img src="assets/img/banner-mob.png" alt="">
-                        </div>
-                        <div class="section__banner-slide-top">
-                            <div class="section__banner-slide-title">Cтоматология <span>AMICLINIC</span></div>
-                            <div class="section__banner-slide-subtitle">Заботливая стоматология, которую вы полюбите!</div>
-                        </div>
-                        <div class="section__banner-slide-buttons">
-                            <div class="button">Запись на первый приём</div>
-                            <div class="button button-green">Узнать стоимость WhatsApp</div>
-                        </div>
-                        <div class="section__banner-slide-row">
-                            <div class="section__banner-slide-row-item">
-                                <div class="section__banner-slide-row-item-icon">
-                                    <img src="assets/img/time.svg" alt="">
-                                </div>
-                                <div class="section__banner-slide-row-item-text">
-                                    Пн-Вс 9:00-21:00
-                                </div>
-                            </div>
-                            <div class="section__banner-slide-row-item">
-                                <div class="section__banner-slide-row-item-icon">
-                                    <img src="assets/img/geo.svg" alt="">
+                                    <img src="assets/img/geo-svg.svg" alt="">
                                 </div>
                                 <div class="section__banner-slide-row-item-text">
                                     г. Москва, ул. Таганская, д. 26, стр. 1
@@ -269,11 +367,20 @@
             </div>
         </div>
     </div>
+    
     <section class="section__categories">
         <div class="section__categories-conatiner">
             <div class="section__categories-item">
                 <div class="section__categories-item-img">
-                    <img src="assets/img/categories1.png" alt="">
+                    <picture>
+                              
+                        <source srcset="assets/img/categories1.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/categories1.webp" type="image/webp">
+                    
+                        <img src="assets/img/categories1.png" alt="Описание изображения">
+                       
+                    </picture>
                 </div>
                 <div class="section__categories-item-text">
                     <div class="section__categories-item-text-title">All-on-4 / Имплантация</div>
@@ -283,7 +390,15 @@
             </div>
             <div class="section__categories-item">
                 <div class="section__categories-item-img">
-                    <img src="assets/img/categories2.png" alt="">
+                    <picture>
+                              
+                        <source srcset="assets/img/categories2.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/categories2.webp" type="image/webp">
+                    
+                        <img src="assets/img/categories2.png" alt="Описание изображения">
+                       
+                    </picture>
                 </div>
                 <div class="section__categories-item-text">
                     <div class="section__categories-item-text-title">Лечение зубов</div>
@@ -293,7 +408,15 @@
             </div>
             <div class="section__categories-item">
                 <div class="section__categories-item-img">
-                    <img src="assets/img/categories3.png" alt="">
+                    <picture>
+                              
+                        <source srcset="assets/img/categories3.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/categories3.webp" type="image/webp">
+                    
+                        <img src="assets/img/categories3.png" alt="Описание изображения">
+                       
+                    </picture>
                 </div>
                 <div class="section__categories-item-text">
                     <div class="section__categories-item-text-title">Выравнивание зубов</div>
@@ -303,7 +426,15 @@
             </div>
             <div class="section__categories-item">
                 <div class="section__categories-item-img">
-                    <img src="assets/img/categories4.png" alt="">
+                    <picture>
+                              
+                        <source srcset="assets/img/categories4.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/categories4.webp" type="image/webp">
+                    
+                        <img src="assets/img/categories4.png" alt="Описание изображения">
+                       
+                    </picture>
                 </div>
                 <div class="section__categories-item-text">
                     <div class="section__categories-item-text-title">Эстетика/виниры</div>
@@ -397,23 +528,20 @@
         <div class="section__love-container">
             <div class="section__love-left">
                 <div class="section__love-left-title">Ami Clinic создана <span>с любовью</span></div>
-                <div class="section__love-left-text">В 2016 году я привез технологию All-on-4 в Россию, 
-                    сделав ставку на инновацию. Мне говорили: “Ничего не получится!” 
-                    “Технология не подходит для российских реалий” 
-                    Но у меня была вера и твердое убеждение:
-                    All-on-4 — это шанс получить новые зубы. 
-                    Как свои, только еще лучше. 
-                    Я понимаю, насколько сейчас трудно выбрать стоматологию. 
-                    На рынке сотни предложений “Зубы за 1 день”. 
-                    Но мы видим огромное количество ошибок — когда присылают слепки, снимки, непроверенные окклюзии. Ведь еще 5 лет Назад 9 из 10 врачей отрицали саму возможность такой операции. </div>
+                <div class="section__love-left-text">
+                    <p>Главной задачей было собрать команду специалистов,
+                        которые не просто имеют хороший стаж, а понимают влияние зубов на нашу жизнь.</p>
+                    <p>Построили свою зуботехническую лабораторию, чтобы любой продукт от пломбы до протеза были изготовлены индивидуально под вас и в 100% качестве.</p>
+                    <p>Упростили все процессы и постоянно совершенствуем их для того, чтобы лечение зубов навсегда перестало быть болью и дискомфортом в современном мире.</p>
+                </div>
                 <div class="section__love-left-row">
                     <div class="section__love-left-row-item">
                         <div class="section__love-left-row-item-num">с 2016г</div>
-                        <div class="section__love-left-row-item-text">Работаем по технологии All-on-4</div>
+                        <div class="section__love-left-row-item-text">Создаём идеальные улыбки</div>
                     </div>
                     <div class="section__love-left-row-item">
                         <div class="section__love-left-row-item-num">35 000+</div>
-                        <div class="section__love-left-row-item-text">Установленных имплантов</div>
+                        <div class="section__love-left-row-item-text">Довольных клиентов</div>
                     </div>
                     <div class="section__love-left-row-item">
                         <div class="section__love-left-row-item-num">6000+</div>
@@ -422,7 +550,21 @@
                 </div>
             </div>
             <div class="section__love-right">
-                <img src="assets/img/love.png" alt="">
+                <picture>
+                              
+                    <source srcset="assets/img/love.avif" type="image/avif">
+             
+                    <source srcset="assets/img/love.webp" type="image/webp">
+                
+                    <img src="assets/img/love.png" alt="Описание изображения">
+                   
+                </picture>
+                <div class="section__love-right-text">
+                    <div class="section__love-right-text-name">Максим Анатольевич</div>
+                    <div class="section__love-right-text-text">Основатель и руководитель 
+                        стоматологии AMI CLINIC</div>
+
+                </div>
             </div>
         </div>
     </section>
@@ -445,7 +587,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -457,7 +607,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -470,7 +628,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -489,7 +655,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -501,7 +675,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -514,7 +696,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -533,7 +723,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -545,7 +743,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -558,7 +764,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -593,7 +807,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -605,7 +827,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -618,7 +848,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -637,7 +875,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -649,7 +895,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -662,7 +916,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -681,7 +943,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -693,7 +963,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -706,7 +984,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -735,13 +1021,21 @@
 
 
                 </div>
-                <div id="tab3" class="section__comand-tab-content  swiper">
+                <div id="tab3" class="section__comand-tab-content swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide__doctors slide__doctors-swiper">
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -753,7 +1047,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -766,7 +1068,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -785,7 +1095,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -797,7 +1115,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -810,7 +1136,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -829,7 +1163,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -841,7 +1183,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -854,7 +1204,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -883,13 +1241,21 @@
 
 
                 </div>
-                <div id="tab4" class="section__comand-tab-content  swiper">
+                <div id="tab4" class="section__comand-tab-content swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide__doctors slide__doctors-swiper">
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -901,7 +1267,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -914,7 +1288,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -933,7 +1315,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -945,7 +1335,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -958,7 +1356,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -977,7 +1383,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -989,7 +1403,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -1002,7 +1424,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -1017,6 +1447,7 @@
                             <div class="swiper-pagination"></div>
 
                         </div>
+
 
                     </div>
                     <div class="section__comand-tab-content-row">
@@ -1030,13 +1461,21 @@
 
 
                 </div>
-                <div id="tab5" class="section__comand-tab-content  swiper">
+                <div id="tab5" class="section__comand-tab-content swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide__doctors slide__doctors-swiper">
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -1048,7 +1487,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -1061,7 +1508,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -1080,7 +1535,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -1092,7 +1555,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -1105,7 +1576,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -1124,7 +1603,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -1136,7 +1623,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -1149,7 +1644,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -1164,6 +1667,7 @@
                             <div class="swiper-pagination"></div>
 
                         </div>
+
 
                     </div>
                     <div class="section__comand-tab-content-row">
@@ -1177,13 +1681,21 @@
 
 
                 </div>
-                <div id="tab6" class="section__comand-tab-content  swiper">
+                <div id="tab6" class="section__comand-tab-content swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide__doctors slide__doctors-swiper">
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -1195,7 +1707,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -1208,7 +1728,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -1227,7 +1755,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -1239,7 +1775,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -1252,7 +1796,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -1271,7 +1823,15 @@
                             <div class="swiper-wrapper">
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor1.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Попов Константин Юрьевич</div>
@@ -1283,7 +1843,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Дремалов Борис Михайлович</div>
@@ -1296,7 +1864,15 @@
                                 </div>
                                 <div class="slide__doctor-item swiper-slide">
                                     <div class="slide__doctor-item-img">
-                                        <img src="assets/img/doctor2.png" alt="">
+                                        <picture>
+                              
+                                            <source srcset="assets/img/doctor3.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/doctor3.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/doctor3.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
                                     <div class="slide__doctor-item-bottom">
                                     <div class="slide__doctor-item-name">Гаджиев Юсуп Исламович</div>
@@ -1311,7 +1887,8 @@
                             <div class="swiper-pagination"></div>
 
                         </div>
-       
+
+
                     </div>
                     <div class="section__comand-tab-content-row">
                         <div class="swiper-pagination"></div>
@@ -1354,9 +1931,8 @@
     </section>
     <section class="section__comand section__history">
         <div class="section__comand-container">
-            <div class="section__history-title-mobile">Истории пациентов</div>
-            <div class="section__photo-title section__history-title"><span>Даже в тех случаях,где </span>другие клиники бессильны</div>
-            <div class="section__history-subtitle">Реальные истории пациентов</div>
+            <div class="section__photo-title "><span>Истории пациентов</span></div>
+            <div class="section__history-subtitle">Помогаем даже в тех случаях, где другие клиники <span>бессильны</span> </div>
             <div class="section__comand-tabs section__history-tabs">
                 <div data-tab="tab-1" class="section__comand-tab section__history-tab section__comand-tab-active">Все</div>
                 <div data-tab="tab-2" class="section__comand-tab section__history-tab">All-on-4</div>
@@ -1370,7 +1946,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1415,7 +1999,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1460,7 +2052,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1505,7 +2105,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1550,7 +2158,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1595,7 +2211,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1640,7 +2264,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1685,7 +2317,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1730,7 +2370,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1793,7 +2441,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1838,7 +2494,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1883,7 +2547,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1928,7 +2600,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -1973,7 +2653,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2018,7 +2706,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2063,7 +2759,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2108,7 +2812,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2153,7 +2865,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2216,7 +2936,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2261,7 +2989,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2306,7 +3042,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2351,7 +3095,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2396,7 +3148,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2441,7 +3201,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2486,7 +3254,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2531,7 +3307,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2576,7 +3360,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2639,7 +3431,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2684,7 +3484,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2729,7 +3537,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2774,7 +3590,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2819,7 +3643,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2864,7 +3696,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2909,7 +3749,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2954,7 +3802,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -2999,7 +3855,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3062,7 +3926,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3107,7 +3979,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3152,7 +4032,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3197,7 +4085,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3242,7 +4138,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3287,7 +4191,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3332,7 +4244,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3377,7 +4297,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3422,7 +4350,15 @@
                         <div class="swiper-slide slide__doctors section__history-slide">
                             <div class="section__history-slide-left">
                                 <div class="section__history-slide-left-img">
-                                    <img src="assets/img/history.png" alt="">
+                                    <picture>
+                              
+                                        <source srcset="assets/img/history.avif" type="image/avif">
+                                 
+                                        <source srcset="assets/img/history.webp" type="image/webp">
+                                    
+                                        <img src="assets/img/history.png" alt="Описание изображения">
+                                       
+                                    </picture>
                                 </div>
                                 <a href="" class="section__history-slide-left-play">
                                     <div class="section__history-slide-left-play-icon">
@@ -3522,12 +4458,20 @@
                 </div>
             </div>
             <div class="section__visit-right">
-                <img src="assets/img/visit.png" alt="">
+                <picture>
+                              
+                    <source srcset="assets/img/visit.avif" type="image/avif">
+             
+                    <source srcset="assets/img/visit.webp" type="image/webp">
+                
+                    <img src="assets/img/visit.png" alt="Описание изображения">
+                   
+                </picture>
             </div>
         </div>
     </section>
  
-    <section class="section__start">
+   <!-- <section class="section__start">
         <div class="section__start-container">
             <div class="section__start-title">С чего начать, если <span>есть сомнения?</span> </div>
             <div class="section__start-inner">
@@ -3557,17 +4501,26 @@
             </div>
         </div>
     </section>  
-
+-->
     <section class="section__coffee">
         <div class="section__coffee-container">
             <div class="section__coffee-inner">
                 <div class="section__coffee-bg">
-                    <img src="assets/img/cofee-bg.png" alt="">
+                    <picture>
+                              
+                        <source srcset="assets/img/cofee-bg.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/cofee-bg.webp" type="image/webp">
+                    
+                        <img src="assets/img/cofee-bg.png" alt="Описание изображения">
+                       
+                    </picture>
+
                 </div>
                 <div class="section__coffee-text">
                     <div class="section__coffee-title">Новые зубы по цене <span>чашки кофе в день</span></div>
                     <div class="section__coffee-text-text">В стоматологии Ami Clinic лечение доступно каждому
-                        без мнимой экономии! 
+                        без мнимой экономии! <br>
                         Следите за здоровьем зубов у ведущих специалистов Москвы на самых гибких условиях.</div>
                 </div>
 
@@ -3608,6 +4561,7 @@
             </div>
         </div>
     </section>    
+     <!--
     <section class="section__zabota">
         <div class="section__zabota-container">
             <div class="section__start-title"><span>Вы окутаны заботой</span> </div>
@@ -3740,6 +4694,7 @@
             </div>
         </div>
     </section> 
+-->
     <section class="section__feedback">
         <div class="section__feedback-container">
             <div class="section__feedback-subtitle">
@@ -3759,7 +4714,15 @@
                                 <div class="section__feedback-slide-right-inner">
                                     <div class="section__feedback-slide-right-img">
                                         <div class="section__feedback-slide-right-img-img">
-                                            <img src="assets/img/feed1.png" alt="">
+                                            <picture>
+                              
+                                                <source srcset="assets/img/feed1.avif" type="image/avif">
+                                         
+                                                <source srcset="assets/img/feed1.webp" type="image/webp">
+                                            
+                                                <img src="assets/img/feed1.png" alt="Описание изображения">
+                                               
+                                            </picture>
                                         </div>
                                         <div class="section__feedback-slide-right-name">Колчина Елизавета </div>
                                      
@@ -3797,7 +4760,15 @@
                                 <div class="section__feedback-slide-right-inner">
                                     <div class="section__feedback-slide-right-img">
                                         <div class="section__feedback-slide-right-img-img">
-                                            <img src="assets/img/feed1.png" alt="">
+                                            <picture>
+                              
+                                                <source srcset="assets/img/feed2.avif" type="image/avif">
+                                         
+                                                <source srcset="assets/img/feed2.webp" type="image/webp">
+                                            
+                                                <img src="assets/img/feed2.png" alt="Описание изображения">
+                                               
+                                            </picture>
                                         </div>
                                         <div class="section__feedback-slide-right-name">Селезнёв Сергей</div>
                                      
@@ -3831,13 +4802,21 @@
                             <div class="section__feedback-slide-left">
                                 <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
                                 <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
-                                <a href class="section__feedback-slide-left-src">Читать полностью</a>
+                                <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
                             </div>
                             <div class="section__feedback-slide-right">
                                 <div class="section__feedback-slide-right-inner">
                                     <div class="section__feedback-slide-right-img">
                                         <div class="section__feedback-slide-right-img-img">
-                                            <img src="assets/img/feed1.png" alt="">
+                                            <picture>
+                              
+                                                <source srcset="assets/img/feed1.avif" type="image/avif">
+                                         
+                                                <source srcset="assets/img/feed1.webp" type="image/webp">
+                                            
+                                                <img src="assets/img/feed1.png" alt="Описание изображения">
+                                               
+                                            </picture>
                                         </div>
                                         <div class="section__feedback-slide-right-name">Колчина Елизавета </div>
                                      
@@ -3875,7 +4854,15 @@
                                 <div class="section__feedback-slide-right-inner">
                                     <div class="section__feedback-slide-right-img">
                                         <div class="section__feedback-slide-right-img-img">
-                                            <img src="assets/img/feed1.png" alt="">
+                                            <picture>
+                              
+                                                <source srcset="assets/img/feed2.avif" type="image/avif">
+                                         
+                                                <source srcset="assets/img/feed2.webp" type="image/webp">
+                                            
+                                                <img src="assets/img/feed2.png" alt="Описание изображения">
+                                               
+                                            </picture>
                                         </div>
                                         <div class="section__feedback-slide-right-name">Селезнёв Сергей</div>
                                      
@@ -3953,8 +4940,15 @@
             <div class="section__questions-row">
                 <div class="section__questions-row-left">
                     
-                        <img src="assets/img/que.png" alt="">
-                    
+                        <picture>
+                              
+                            <source srcset="assets/img/que.avif" type="image/avif">
+                     
+                            <source srcset="assets/img/que.webp" type="image/webp">
+                        
+                            <img src="assets/img/que.png" alt="Описание изображения">
+                           
+                        </picture>
                 </div>
                 <div class="section__questions-row-right">
                     <div class="section__questions-row-right-title">Популярные вопросы</div>
@@ -4033,10 +5027,19 @@
 
             </div>
             <div class="section__news-items">
-                <div class="section__news-item">
+                <a href="" class="section__news-item">
                     <div class="section__news-item-img">
                         <div class="section__news-item-img-img">
-                            <img src="assets/img/new1.png" alt="">
+                    
+                            <picture>
+                              
+                                <source srcset="assets/img/new1.avif" type="image/avif">
+                         
+                                <source srcset="assets/img/new1.webp" type="image/webp">
+                            
+                                <img src="assets/img/new1.png" alt="Описание изображения">
+                               
+                            </picture>
                         </div>
                         <div class="section__news-item-img-text">
                             All on 4
@@ -4044,12 +5047,20 @@
                     </div>
                     <div class="section__news-item-title">Цифровое протезирование зубов: история пациента</div>
                     <div class="section__news-item-text">Каждый пациент мечтает об идеально точном, красивом и качественном результате.</div>
-                    <a href="" class="section__news-item-src">Читать подробнее</a>
-                </div>
-                <div class="section__news-item">
+                    <div class="section__news-item-src">Читать подробнее</div>
+                </a>
+                <a href="" class="section__news-item">
                     <div class="section__news-item-img">
                         <div class="section__news-item-img-img">
-                            <img src="assets/img/new2.png" alt="">
+                            <picture>
+                              
+                                <source srcset="assets/img/new2.avif" type="image/avif">
+                         
+                                <source srcset="assets/img/new2.webp" type="image/webp">
+                            
+                                <img src="assets/img/new2.png" alt="Описание изображения">
+                               
+                            </picture>
                         </div>
                         <div class="section__news-item-img-text">
                             Лечение зубами
@@ -4057,12 +5068,20 @@
                     </div>
                     <div class="section__news-item-title">Цифровое протезирование зубов: история пациента</div>
                     <div class="section__news-item-text">Каждый пациент мечтает об идеально точном, красивом и качественном результате.</div>
-                    <a href="" class="section__news-item-src">Читать подробнее</a>
-                </div>
-                                <div class="section__news-item">
+                    <div class="section__news-item-src">Читать подробнее</div>
+                </a>
+                 <a href="" class="section__news-item">
                     <div class="section__news-item-img">
                         <div class="section__news-item-img-img">
-                            <img src="assets/img/new3.png" alt="">
+                            <picture>
+                              
+                                <source srcset="assets/img/new3.avif" type="image/avif">
+                         
+                                <source srcset="assets/img/new3.webp" type="image/webp">
+                            
+                                <img src="assets/img/new3.png" alt="Описание изображения">
+                               
+                            </picture>
                         </div>
                         <div class="section__news-item-img-text">
                             Ортодонтия
@@ -4070,13 +5089,13 @@
                     </div>
                     <div class="section__news-item-title">Цифровое протезирование зубов: история пациента</div>
                     <div class="section__news-item-text">Каждый пациент мечтает об идеально точном, красивом и качественном результате.</div>
-                    <a href="" class="section__news-item-src">Читать подробнее</a>
-                </div>
+                    <div class="section__news-item-src">Читать подробнее</div>
+                </a>
             </div>
             <a href="" class="section__news-title-src section__news-title-src-mobile">Cмотреть все</a>
         </div>
     </section>
-      
+ 
 </main>
 
 <footer class="footer">
