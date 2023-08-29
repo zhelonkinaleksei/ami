@@ -23,13 +23,14 @@ if (screenWidth > 992) {
 
 }
 if (screenWidth < 992) {
-  $('.section__comand-tabs').slick({
-    slidesToShow: 1,
-    variableWidth: true,
-    infinite:false,
-  
+  $('.section__comand-tabs').each(function() {
+    $(this).slick({
+      slidesToShow: 1,
+      variableWidth: true,
+      infinite: false,
+      // Другие опции
+    });
   });
-
 }
 
 

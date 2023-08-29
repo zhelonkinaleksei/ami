@@ -11,8 +11,11 @@
     font-family: 'Bebas Neue';
     font-size: 6.7rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 125%; /* 83.75px */
+    span{
+        color: var(--primary-500, #30B5DF);  
+    }
 }
 .section__comand-subtitle {
     margin: 0 auto;
@@ -342,6 +345,53 @@
         margin-top: 2rem;
         font-size: 1.7rem;
     
+    
+    }
+}
+
+.section__comand-stomate{
+    .section__comand-title-stomate{
+        color: var(--neutral-900, #111827);
+        margin: 0 auto;
+        text-align: center;
+        font-size: 3.2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 125%; /* 40px */
+        max-width: 60rem;
+        font-family: 'Roboto';
+        text-transform: none;
+
+    }
+    .section__comand-tabs-content{
+        margin-top: 3.2rem!important;
+
+    }
+    .section__comand-tab-content-row {
+        justify-content: center;
+    }
+    .swiper-pagination {
+        display: none;
+    }
+
+}
+@media(max-width:576px){
+
+    .section__comand-stomate{
+        .section__comand-title-stomate{
+            font-size: 3rem;
+    
+        }
+        .section__comand-tabs-content{
+            margin-top: 2.4rem!important;
+    
+        }
+        .section__comand-tab-content-row {
+            justify-content: center;
+        }
+        .swiper-pagination {
+            display: none;
+        }
     
     }
 }

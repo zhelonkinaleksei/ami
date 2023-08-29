@@ -1,14 +1,5 @@
 .section__feedback {
-    .section__comand-tab-content-row {
-    }
-    .swiper-pagination {
-    }
-    .slide__doctors-swiper-navigation {
-    }
-    .slide__doctors-swiper-navigation-prev {
-    }
-    .slide__doctors-swiper-navigation-next {
-    }
+
 }
 .section__feedback-container {
     max-width: 116rem;
@@ -20,7 +11,7 @@
     font-family: 'Bebas Neue';
     font-size: 43px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 110%; /* 47.3px */
     text-align: center;
 
@@ -165,91 +156,30 @@
     line-height: 110%; /* 16.5px */
 }
 
-#audioplayer {
-    background: #fff;
-    z-index: 6;
+.green-audio-player {
     width: 100%;
-    padding: 0rem 1.2rem;
-  }
-  
-  #controls {
-    display: flex;
-    align-items: center;
-    column-gap: 0.8rem;
-  }
-  
-  #play-pause-button {
-    background: #fff;
-    width: 4rem;
+    min-width: 0px;
     height: 4rem;
-    flex: 0 0 4rem;
-    background-image: url(../img/play-feed.svg);
-    background-size: cover;
-    cursor: pointer;
-  }
-  
-  #timeline {
-    width: 100%;
-    max-width: 8.4rem;
-    height: 0.6rem;
-    background-color: rgba(17, 24, 39, 0.40);
-    position: relative;
-    border-radius: 1.6rem;
-  }
-  
-  #playhead {
-    width: 0;
-    height: 100%;
-    background-color: #11182766;
-  }
-  
-  #time {
-    color: var(--neutral-900, #111C27);
-    font-variant-numeric: lining-nums proportional-nums;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
-  }
-  
-  #volume {
-    position: relative;
-    display: flex;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0,0,0,.07);
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.07);
+    background: var(--neutral-100, #F3F5F6);
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    background-color: #fff;
-  }
-  
-  #mute-button {
-    width: 2.6rem;
-    height: 2.6rem;
-    background-image: url(../img/volume.svg);
-    background-size: cover;
-    cursor: pointer;
-    background-color: #fff;
-  }
-  
-  #volume-range {
-    font-size: 0px;
-    display: none;
-    position: absolute;
-    top: -2rem;
-    right: 0rem;
-    width: 80px;
-  }
+    border-radius: 0.4rem;
+}
 
   @media(max-width:992px){
     .section__feedback {
-        .section__comand-tab-content-row {
-        }
-        .swiper-pagination {
-        }
-        .slide__doctors-swiper-navigation {
-        }
-        .slide__doctors-swiper-navigation-prev {
-        }
-        .slide__doctors-swiper-navigation-next {
-        }
+
     }
     .section__feedback-container {
         max-width: 116rem;

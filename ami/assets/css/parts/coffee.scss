@@ -38,6 +38,12 @@
         height: 100%;
     }
 }
+.section__coffee-bg-2{
+    max-width: 60.3rem;
+    height: 57.8rem;
+    bottom: 20rem;
+
+}
 .section__coffee-text {
     max-width: 49.3rem;
     width: 100%;
@@ -51,7 +57,7 @@
     font-family: 'Bebas Neue';
     font-size: 7rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 100%; /* 70px */
     span{
         color: var(--primary-base, #30B5DF);
@@ -164,6 +170,12 @@
         max-width:34.4rem;
         height: 100%;
         max-height: 30.1rem;
+    }
+    .section__coffee-bg-2{
+        max-width: 42.3rem;
+        max-height: 45.8rem;
+        bottom: auto;
+        
     }
     .section__coffee-text {
         max-width: 34.4rem;
@@ -282,6 +294,12 @@
             max-width: none;
             justify-content: flex-start;
         }
+    }
+    .section__coffee-bg-2{
+        max-width: 32.9rem;
+        max-height: 39.8rem;
+        bottom: auto;
+        
     }
     .section__coffee-item-left {
         display: flex;

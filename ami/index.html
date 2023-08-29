@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link  rel="stylesheet"   href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/css/green-audio-player.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -1908,24 +1910,74 @@
         <div class="section__photo-container">
             <div class="section__photo-title">Премиальный уровень комфорта <span>на 350 м²</span></div>
             <div class="section__photo-inner">
-                <div class="section__photo-item section__photo-item-big">
-                    <img src="assets/img/photo1.png" alt="">
-                </div>
-                <div class="section__photo-item ">
-                    <img src="assets/img/photo2.png" alt="">
-                </div>
-                <div class="section__photo-item ">
-                    <img src="assets/img/photo3.png" alt="">
-                </div>
-                <div class="section__photo-item ">
-                    <img src="assets/img/photo4.png" alt="">
-                </div>
-                <div class="section__photo-item ">
-                    <img src="assets/img/photo5.png" alt="">
-                </div>
-                <div class="section__photo-item section__photo-item-big ">
-                    <img src="assets/img/photo6.png" alt="">
-                </div>
+                <a data-fancybox href="assets/img/photo1.png" class="section__photo-item section__photo-item-big">
+                        <picture>
+                      
+                            <source srcset="assets/img/photo1.avif" type="image/avif">
+                     
+                            <source srcset="assets/img/photo1.webp" type="image/webp">
+                        
+                            <img src="assets/img/photo1.png" alt="Описание изображения">
+                           
+                        </picture>
+                </a>
+                <a data-fancybox href="assets/img/photo2.png" class="section__photo-item">
+                    <picture>
+                  
+                        <source srcset="assets/img/photo2.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/photo2.webp" type="image/webp">
+                    
+                        <img src="assets/img/photo2.png" alt="Описание изображения">
+                       
+                    </picture>
+                </a>
+                <a data-fancybox href="assets/img/photo3.png" class="section__photo-item">
+                    <picture>
+                  
+                        <source srcset="assets/img/photo3.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/photo3.webp" type="image/webp">
+                    
+                        <img src="assets/img/photo3.png" alt="Описание изображения">
+                       
+                    </picture>
+                </a>
+                <a data-fancybox href="assets/img/photo4.png" class="section__photo-item">
+                    <picture>
+                  
+                        <source srcset="assets/img/photo4.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/photo4.webp" type="image/webp">
+                    
+                        <img src="assets/img/photo4.png" alt="Описание изображения">
+                       
+                    </picture>
+                </a>
+                <a data-fancybox href="assets/img/photo5.png" class="section__photo-item">
+                    <picture>
+                  
+                        <source srcset="assets/img/photo5.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/photo5.webp" type="image/webp">
+                    
+                        <img src="assets/img/photo5.png" alt="Описание изображения">
+                       
+                    </picture>
+                </a>
+                <a data-fancybox href="assets/img/photo6.png" class="section__photo-item section__photo-item-big " >
+                    <picture>
+                  
+                        <source srcset="assets/img/photo6.avif" type="image/avif">
+                 
+                        <source srcset="assets/img/photo6.webp" type="image/webp">
+                    
+                        <img src="assets/img/photo6.png" alt="Описание изображения">
+                       
+                    </picture>
+                </a>
+
+
             </div>
         </div>
     </section>
@@ -4470,6 +4522,7 @@
             </div>
         </div>
     </section>
+    
  
    <!-- <section class="section__start">
         <div class="section__start-container">
@@ -4695,215 +4748,167 @@
         </div>
     </section> 
 -->
-    <section class="section__feedback">
-        <div class="section__feedback-container">
-            <div class="section__feedback-subtitle">
-                Пациенты говорят
-            </div>
-            <div class="section__feedback-title">“Спасибо судьбе, что привела в Ami Clinic”</div>
-            <div class="section__feedback-swiper section__comand-tab-content section__comand-tab-content-active swiper">
-                <div class="swiper-wrapper">
-                    <div class="section__feedback-slide swiper-slide">
-                        <div class="section__feedback-slide-subslide">
-                            <div class="section__feedback-slide-left">
-                                <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
-                                <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
-                                <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
-                            </div>
-                            <div class="section__feedback-slide-right">
-                                <div class="section__feedback-slide-right-inner">
-                                    <div class="section__feedback-slide-right-img">
-                                        <div class="section__feedback-slide-right-img-img">
-                                            <picture>
-                              
-                                                <source srcset="assets/img/feed1.avif" type="image/avif">
-                                         
-                                                <source srcset="assets/img/feed1.webp" type="image/webp">
-                                            
-                                                <img src="assets/img/feed1.png" alt="Описание изображения">
-                                               
-                                            </picture>
-                                        </div>
-                                        <div class="section__feedback-slide-right-name">Колчина Елизавета </div>
-                                     
-
-                                    </div>
-                                    <div id="audioplayer">
-                                        <audio id="audio" src="audio.mp3"></audio>
-                                        <div id="controls">
-                                          <button id="play-pause-button"></button>
-                                          <div id="time">
-                                            <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
-                                          </div>
-                                          <div id="timeline">
-                                            <div id="playhead"></div>
-                                          </div>
-
-                                          <div id="volume">
-                                            <button id="mute-button">🔊</button>
-                                            <input type="range" id="volume-range" min="0" max="1" step="0.01" value="1">
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="section__feedback-slide-right-text">Нажмите, чтобы прослушать
-                                    аудио отзыв</div>
-                            </div>
+<section class="section__feedback">
+    <div class="section__feedback-container">
+        <div class="section__feedback-subtitle">
+            Пациенты говорят
+        </div>
+        <div class="section__feedback-title">“Спасибо судьбе, что привела в Ami Clinic”</div>
+        <div class="section__feedback-swiper section__comand-tab-content section__comand-tab-content-active swiper">
+            <div class="swiper-wrapper">
+                <div class="section__feedback-slide swiper-slide">
+                    <div class="section__feedback-slide-subslide">
+                        <div class="section__feedback-slide-left">
+                            <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
+                            <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
+                            <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
                         </div>
-                        <div class="section__feedback-slide-subslide">
-                            <div class="section__feedback-slide-left">
-                                <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
-                                <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
-                                <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
-                            </div>
-                            <div class="section__feedback-slide-right">
-                                <div class="section__feedback-slide-right-inner">
-                                    <div class="section__feedback-slide-right-img">
-                                        <div class="section__feedback-slide-right-img-img">
-                                            <picture>
-                              
-                                                <source srcset="assets/img/feed2.avif" type="image/avif">
-                                         
-                                                <source srcset="assets/img/feed2.webp" type="image/webp">
-                                            
-                                                <img src="assets/img/feed2.png" alt="Описание изображения">
-                                               
-                                            </picture>
-                                        </div>
-                                        <div class="section__feedback-slide-right-name">Селезнёв Сергей</div>
+                        <div class="section__feedback-slide-right">
+                            <div class="section__feedback-slide-right-inner">
+                                <div class="section__feedback-slide-right-img">
+                                    <div class="section__feedback-slide-right-img-img">
+                                        <picture>
+                          
+                                            <source srcset="assets/img/feed1.avif" type="image/avif">
                                      
-
+                                            <source srcset="assets/img/feed1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/feed1.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
-                                    <div id="audioplayer">
-                                        <audio id="audio" src="audio.mp3"></audio>
-                                        <div id="controls">
-                                          <button id="play-pause-button"></button>
-                                          <div id="time">
-                                            <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
-                                          </div>
-                                          <div id="timeline">
-                                            <div id="playhead"></div>
-                                          </div>
+                                    <div class="section__feedback-slide-right-name">Колчина Елизавета </div>
+                                 
 
-                                          <div id="volume">
-                                            <button id="mute-button">🔊</button>
-                                            <input type="range" id="volume-range" min="0" max="1" step="0.01" value="1">
-                                          </div>
-                                        </div>
-                                    </div>
                                 </div>
-                                <div class="section__feedback-slide-right-text">Нажмите, чтобы прослушать
-                                    аудио отзыв</div>
+                                <div class="audio-player">
+                                    <audio>
+                                        <source src="audio/example-1.mp3" type="audio/mpeg">
+                                    </audio>
+                                </div>
                             </div>
+                            <div class="section__feedback-slide-right-text">Нажмите, чтобы прослушать
+                                аудио отзыв</div>
                         </div>
                     </div>
-                    <div class="section__feedback-slide swiper-slide">
-                        <div class="section__feedback-slide-subslide">
-                            <div class="section__feedback-slide-left">
-                                <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
-                                <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
-                                <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
-                            </div>
-                            <div class="section__feedback-slide-right">
-                                <div class="section__feedback-slide-right-inner">
-                                    <div class="section__feedback-slide-right-img">
-                                        <div class="section__feedback-slide-right-img-img">
-                                            <picture>
-                              
-                                                <source srcset="assets/img/feed1.avif" type="image/avif">
-                                         
-                                                <source srcset="assets/img/feed1.webp" type="image/webp">
-                                            
-                                                <img src="assets/img/feed1.png" alt="Описание изображения">
-                                               
-                                            </picture>
-                                        </div>
-                                        <div class="section__feedback-slide-right-name">Колчина Елизавета </div>
-                                     
-
-                                    </div>
-                                    <div id="audioplayer">
-                                        <audio id="audio" src="audio.mp3"></audio>
-                                        <div id="controls">
-                                          <button id="play-pause-button"></button>
-                                          <div id="time">
-                                            <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
-                                          </div>
-                                          <div id="timeline">
-                                            <div id="playhead"></div>
-                                          </div>
-
-                                          <div id="volume">
-                                            <button id="mute-button">🔊</button>
-                                            <input type="range" id="volume-range" min="0" max="1" step="0.01" value="1">
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="section__feedback-slide-right-text">Нажмите, чтобы прослушать
-                                    аудио отзыв</div>
-                            </div>
+                    <div class="section__feedback-slide-subslide">
+                        <div class="section__feedback-slide-left">
+                            <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
+                            <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
+                            <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
                         </div>
-                        <div class="section__feedback-slide-subslide">
-                            <div class="section__feedback-slide-left">
-                                <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
-                                <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
-                                <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
-                            </div>
-                            <div class="section__feedback-slide-right">
-                                <div class="section__feedback-slide-right-inner">
-                                    <div class="section__feedback-slide-right-img">
-                                        <div class="section__feedback-slide-right-img-img">
-                                            <picture>
-                              
-                                                <source srcset="assets/img/feed2.avif" type="image/avif">
-                                         
-                                                <source srcset="assets/img/feed2.webp" type="image/webp">
-                                            
-                                                <img src="assets/img/feed2.png" alt="Описание изображения">
-                                               
-                                            </picture>
-                                        </div>
-                                        <div class="section__feedback-slide-right-name">Селезнёв Сергей</div>
+                        <div class="section__feedback-slide-right">
+                            <div class="section__feedback-slide-right-inner">
+                                <div class="section__feedback-slide-right-img">
+                                    <div class="section__feedback-slide-right-img-img">
+                                        <picture>
+                          
+                                            <source srcset="assets/img/feed2.avif" type="image/avif">
                                      
-
+                                            <source srcset="assets/img/feed2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/feed2.png" alt="Описание изображения">
+                                           
+                                        </picture>
                                     </div>
-                                    <div id="audioplayer">
-                                        <audio id="audio" src="audio.mp3"></audio>
-                                        <div id="controls">
-                                          <button id="play-pause-button"></button>
-                                          <div id="time">
-                                            <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
-                                          </div>
-                                          <div id="timeline">
-                                            <div id="playhead"></div>
-                                          </div>
+                                    <div class="section__feedback-slide-right-name">Селезнёв Сергей</div>
+                                 
 
-                                          <div id="volume">
-                                            <button id="mute-button">🔊</button>
-                                            <input type="range" id="volume-range" min="0" max="1" step="0.01" value="1">
-                                          </div>
-                                        </div>
-                                    </div>
                                 </div>
-                                <div class="section__feedback-slide-right-text">Нажмите, чтобы прослушать
-                                    аудио отзыв</div>
+                                <div class="audio-player">
+                                    <audio>
+                                        <source src="audio/example-1.mp3" type="audio/mpeg">
+                                    </audio>
+                                </div>
                             </div>
+                            <div class="section__feedback-slide-right-text">Нажмите, чтобы прослушать
+                                аудио отзыв</div>
                         </div>
                     </div>
                 </div>
-                <div class="section__comand-tab-content-row">
-                    <div class="swiper-pagination"></div>
-                    <div class="slide__doctors-swiper-navigation">
-        
-                        <div class="slide__doctors-swiper-navigation-prev">Назад</div>
-                        <div class="slide__doctors-swiper-navigation-next">Далее</div>
-            
+                <div class="section__feedback-slide swiper-slide">
+                    <div class="section__feedback-slide-subslide">
+                        <div class="section__feedback-slide-left">
+                            <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
+                            <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
+                            <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
+                        </div>
+                        <div class="section__feedback-slide-right">
+                            <div class="section__feedback-slide-right-inner">
+                                <div class="section__feedback-slide-right-img">
+                                    <div class="section__feedback-slide-right-img-img">
+                                        <picture>
+                          
+                                            <source srcset="assets/img/feed1.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/feed1.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/feed1.png" alt="Описание изображения">
+                                           
+                                        </picture>
+                                    </div>
+                                    <div class="section__feedback-slide-right-name">Колчина Елизавета </div>
+                                 
+
+                                </div>
+                                <div class="audio-player">
+                                    <audio>
+                                        <source src="audio/example-1.mp3" type="audio/mpeg">
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="section__feedback-slide-right-text">Нажмите, чтобы прослушать
+                                аудио отзыв</div>
+                        </div>
                     </div>
+                    <div class="section__feedback-slide-subslide">
+                        <div class="section__feedback-slide-left">
+                            <div class="section__feedback-slide-left-title">В другой клинике мне не смогли предложить <span>одномоментную имплантацию</span></div>
+                            <div class="section__feedback-slide-left-text">У меня проблемы с зубами с 15 лет. С 15 лет мне попадались непонятные стоматологи, которые угробили мне все зубы верхней челюсти. Последний стоматолог, к которому я попала, поставил мне мосты с металлокерамическими коронками, которые начали отваливаться через 3 дня. И в конечном итоге я осталась без всех верхних зубов верхней челюсти, остались одни корни. Я начала следующего стоматолога, который бы надо мной поиздевался. Он сделал, я проходила с этими коронками, мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у меня упали. Я сделала панорамный снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти. Начала искать, что делать. Прочитала весь интернет...</div>
+                            <a href="" class="section__feedback-slide-left-src">Читать полностью</a>
+                        </div>
+                        <div class="section__feedback-slide-right">
+                            <div class="section__feedback-slide-right-inner">
+                                <div class="section__feedback-slide-right-img">
+                                    <div class="section__feedback-slide-right-img-img">
+                                        <picture>
+                          
+                                            <source srcset="assets/img/feed2.avif" type="image/avif">
+                                     
+                                            <source srcset="assets/img/feed2.webp" type="image/webp">
+                                        
+                                            <img src="assets/img/feed2.png" alt="Описание изображения">
+                                           
+                                        </picture>
+                                    </div>
+                                    <div class="section__feedback-slide-right-name">Селезнёв Сергей</div>
+                                 
+
+                                </div>
+                                <div class="audio-player">
+                                    <audio>
+                                        <source src="audio/example-1.mp3" type="audio/mpeg">
+                                    </audio>
+                                </div>
+                            </div>
+                            <div class="section__feedback-slide-right-text">Нажмите, чтобы прослушать
+                                аудио отзыв</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section__comand-tab-content-row">
+                <div class="swiper-pagination"></div>
+                <div class="slide__doctors-swiper-navigation">
+    
+                    <div class="slide__doctors-swiper-navigation-prev">Назад</div>
+                    <div class="slide__doctors-swiper-navigation-next">Далее</div>
+        
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <section class="section__family">
         <div class="section__family-container">
             <div class="section__family-title">Придя к нам однажды — приходят после <span>всей семьёй</span> </div>
@@ -5503,6 +5508,8 @@
 </footer>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js"></script>
 <script src="assets/js/header.js"></script>
 <script src="assets/js/burger.js"></script>
 <script src="assets/js/banner.js"></script>
@@ -5511,6 +5518,7 @@
 <script src="assets/js/tabs-comand.js"></script>
 <script src="assets/js/player.js"></script>
 <script src="assets/js/faq.js"></script>
+<script src="assets/js/fancy.js"></script>
 </body>
 </html>
 

@@ -5,6 +5,7 @@
     margin: 0 auto;
     .section__start-title{
         text-align: center;
+        font-weight: 500;
     }
     .section__comand-tabs-content {
         margin-top: 4rem;
@@ -32,6 +33,7 @@
         max-width: 40.1rem;
         min-height: 46.3rem;
         height: 47.3rem;
+        z-index: 2;
     }
     .section__comand-tab-content-row {
         justify-content: center;
