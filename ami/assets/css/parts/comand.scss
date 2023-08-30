@@ -192,6 +192,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 22.5px */
+    transition:all 0.4s ease-in-out;
+    &:hover{
+        color:#111827;
+    }
 
 }
 .section__comand-tab-content-row{
@@ -238,6 +242,11 @@
         font-style: normal;
         font-weight: 500;
         line-height: 133%; /* 133.333% */
+        transition:all 0.4s ease-in-out;
+        &:hover{
+            color: var(--primary-base, #30B5DF);
+            border: 0.1rem solid #30B5DF;
+        }
     }
     .swiper-button-disabled{
         opacity: 0.5;

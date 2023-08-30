@@ -11,7 +11,8 @@ swipersStalk.forEach((swipesStalk) => {
       navigation: {
         nextEl: swipesStalk.querySelector(".section__stalk-navigation-next"),
         prevEl: swipesStalk.querySelector(".section__stalk-navigation-prev"),
-      },
+      }, 
+       speed: 2000, // Укажите желаемую скорость в миллисекундах
       slidesPerView: 'auto',
       mousewheel: false,
       grabCursor: true,

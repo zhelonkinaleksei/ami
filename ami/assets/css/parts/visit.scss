@@ -26,6 +26,7 @@
     color: var(--neutral-900, #111827);
     font-variant-numeric: lining-nums proportional-nums;
     font-size: 3.6rem;
+    max-width: 47rem;
     span{
         color: var(--primary-500, #30B5DF);   
  }
@@ -34,7 +35,7 @@
     line-height: 105%;
 }
 .section__visit-left-subtitle {
-    margin-top: 1.2rem;
+    margin-top: 0.7rem;
     color: var(--neutral-900, #111827);
     font-variant-numeric: lining-nums proportional-nums;
     font-size: 1.7rem;
@@ -43,10 +44,10 @@
     line-height: 150%; /* 25.5px */
 }
 .section__visit-left-ul {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    row-gap: 1.6rem;
+    row-gap: 1.1rem;
     li{
        position: relative;
        padding-left: 1.2rem;
@@ -72,7 +73,7 @@
 .section__visit-left-form {
     display: flex;
     column-gap: 0.8rem;
-    margin-top: 2.4rem;
+    margin-top: 1.9rem;
     .button {
     }
 }
@@ -96,7 +97,7 @@
 }
 
 .section__visit-left-row {
-    margin-top: 2.4rem;
+    margin-top: 1.9rem;
     display: flex;
     justify-content: space-between;
     column-gap: 1.5rem;

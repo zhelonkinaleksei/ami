@@ -11,6 +11,7 @@ if (screenWidth > 992) {
         el: ".swiper-pagination",
         type: "fraction",
       },
+      speed: 2000, // Укажите желаемую скорость в миллисекундах
       navigation: {
         nextEl: swiperContainer.querySelector(".slide__doctors-swiper-navigation-next"),
         prevEl: swiperContainer.querySelector(".slide__doctors-swiper-navigation-prev"),
@@ -48,7 +49,7 @@ if (screenWidth < 992) {
       pagination: {
         el: ".swiper-pagination",
       },
-
+      speed: 2000, // Укажите желаемую скорость в миллисекундах
       slidesPerView:'auto',
       mousewheel: false,
       grabCursor: true,
