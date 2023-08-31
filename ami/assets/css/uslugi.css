@@ -471,7 +471,7 @@ body {
     width: 100%;
     max-width: none;
     height: 100%;
-    z-index: 2;
+    z-index: 100;
     margin-top: 5.6rem;
     padding: 0rem 1.5rem;
     padding-right: 2rem;
