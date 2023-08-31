@@ -1,6 +1,5 @@
 
 .section__video {
-    overflow:hidden;
     }
     .section__video-all {
         display: none;
@@ -30,7 +29,7 @@
 
 }
 .section__video-tab-content {
-    overflow: visible;
+    overflow: visible!important;
     .swiper-wrapper{
         overflow: visible;
     }
@@ -41,7 +40,7 @@
     width: 100%;
     max-width: 39.3rem;
     position: relative;
-    height: 26.8rem;
+    min-height: 26.8rem;
     border-radius: 2rem;
     padding: 2.4rem;
     display: flex;

@@ -86,3 +86,185 @@
         font-size: 1.5rem;
     }
 }
+
+
+
+.section__categories-uslugi {
+    .section__categories-inner{
+        display: flex;
+        flex-wrap: wrap;
+        gap:1.6rem ;
+        justify-content: space-between;
+        margin-top: 3.8rem;
+    }
+    .section__categories-uslugi-title {
+        color: var(--neutral-900, #111C27);
+        font-family: 'Bebas Neue';
+        font-size: 4.3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 47.3px */
+    }
+  
+    .section__categories-item {
+            width: 100%;
+            max-width: 36.8rem;
+            flex: 1 1 28rem;
+            height: 48.8rem;
+            
+        &:first-child{
+            max-width: 67.2rem;
+            flex: 1 1 55rem;
+            .section__categories-item-img {
+                img{
+                    object-position: -25rem top;
+                }
+            }
+        }
+        &:nth-child(2){
+            max-width: 44.2rem;
+            flex: 1  1 36rem;
+            .section__categories-item-img {
+                img{
+                    object-position: -55rem top;
+                }
+            }
+        }
+        &:nth-child(3){
+            .section__categories-item-img {
+                img{
+                    object-position: -55rem top;
+                }
+            }
+        }
+        &:nth-child(4){
+            .section__categories-item-img {
+                img{
+                    object-position: -50rem top;
+                }
+            }
+        }
+    }
+
+
+    .button {
+        margin-top: 2.2rem;
+    }
+    .section__categories-item-last {
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .section__categories-item-text-title-end {
+        color: var(--neutral-white, #FFF);
+        text-align: center;
+        font-size: 1.7rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 125%; /* 21.25px */
+    }
+    .section__categories-item-text-subtitle-end {
+        display: block;
+        color: var(--neutral-white, #FFF);
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 2rem;
+        opacity: 0.9;
+
+    }
+    .button-green {
+        margin-top: 2rem;
+    }
+    .section__categories-item-text-more {
+        color: var(--neutral-white, #FFF);
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        margin-top: 0.7rem;
+        opacity: 0.9;   
+    }
+}
+
+@media(max-width:992px){
+    .section__categories-conatiner{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .section__categories-uslugi {
+        .section__categories-inner{
+            display: flex;
+            flex-direction: column;
+            gap:0.8rem ;
+            margin-top: 1.8rem;
+        }
+        .section__categories-uslugi-title {
+            font-size: 4.3rem;
+        }
+      
+        .section__categories-item {
+                width: 100%;
+                max-width: none;
+                flex: 1 1 auto;
+                height: 26.8rem!important;
+                
+            &:first-child{
+                max-width: none;
+                flex: 1 1 auto ;
+                .section__categories-item-img {
+                    img{
+                        object-position: center;
+                    }
+                }
+            }
+            &:nth-child(2){
+                max-width: none;
+                flex: 1 1 auto;
+                .section__categories-item-img {
+                    img{
+                        object-position: center;
+                    }
+                }
+            }
+            &:nth-child(3){
+                .section__categories-item-img {
+                    img{
+                        object-position: center;
+                    }
+                }
+            }
+            &:nth-child(4){
+                .section__categories-item-img {
+                    img{
+                        object-position:center;
+                    }
+                }
+            }
+        }
+    
+    
+        .button {
+            margin-top: 1.4rem;
+        }
+        .section__categories-item-last {
+            display: none;
+        }
+    }
+    
+    
+}
+
+@media(max-width:576px){
+    .section__categories-uslugi {
+        .section__categories-inner{
+            margin-top: 1.4rem;
+        }
+      
+    }
+    
+    
+}

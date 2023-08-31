@@ -39,9 +39,9 @@ prevButton.style.display = 'none';
 
 // Функция для обновления счетчика слайдов
 function updateSlideCounter() {
-  const activeSlide = document.querySelector('.swiper-slide-visible');
+  const activeSlide = quiz.querySelector('.swiper-slide-visible');
   const slideNumber = Array.from(slides).indexOf(activeSlide) + 1;
-  document.querySelector('.section__quiz-nav-left-active').textContent = slideNumber;
+  quiz.querySelector('.section__quiz-nav-left-active').textContent = slideNumber;
 }
 
 // Функция для отображения определенного слайда
@@ -130,14 +130,102 @@ nextButton.addEventListener('click', () => {
   showSlide(currentSlideIndex);
 
   // Проверка, если это последний вопрос, скрыть объект с классом section__quiz-nav
-  if (currentSlideIndex === 6) {
-      document.querySelector('.section__quiz-nav').style.display = 'none';
-      document.querySelector('.section__quiz-left-title').style.display = 'none';
-      document.querySelector('.section__quiz-right').style.display = 'none';
-      document.querySelector('.section__quiz-left-title-end').style.display = 'block';
-      document.querySelector('.section__quiz-right-end').style.display = 'block';
-  }
   if (currentSlideIndex === 5) {
+      document.querySelector('section__quiz-nav').style.display = 'none';
+      document.querySelector('section__quiz-left-title').style.display = 'none';
+      document.querySelector('section__quiz-right').style.display = 'none';
+      document.querySelector('section__quiz-left-title-end').style.display = 'block';
+      document.querySelector('section__quiz-right-end').style.display = 'block';
+  }
+  if (currentSlideIndex === 4) {
     nextButton.classList.remove('section__quiz-navigation-next-disable');
 }
 });
+
+
+
+const sliderQuizOther = new Swiper('.section__quiz-swiper-other', { 
+    // задаем параметры
+    mousewheel: false,
+    pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+    },
+    navigation: {
+        nextEl: ".section__quiz-navigation-next",
+        prevEl: ".section__quiz-navigation-prev",
+    },
+    // ... другие параметры
+    on: {
+      slideChange: function () {
+          currentSlideIndex1 = sliderQuizOther.realIndex + 1; // Обновляем текущий индекс слайда
+          updateSlideCounter1(); // Обновляем счетчик слайдов
+      }
+  },
+    effect: 'fade', 
+    grabCursor: false, // менять иконку курсора
+  });
+
+
+
+const quiz1 = document.querySelector('.section__quiz-swiper-other');
+const prevButton1 = quiz1.querySelector('.section__quiz-navigation-prev');
+const nextButton1 = quiz1.querySelector('.section__quiz-navigation-next');
+const slideImgs1 = quiz1.querySelectorAll('.section__quiz-slide-other-item');
+const slides1 = quiz1.querySelectorAll('.section__quiz-slide-other');
+
+let currentSlideIndex1 = 0;
+
+// Скрываем кнопку "Назад" на первом слайде
+prevButton1.style.display = 'none';
+
+// Функция для обновления счетчика слайдов
+function updateSlideCounter1() {
+  const activeSlide1 = quiz1.querySelector('.swiper-slide-visible');
+  const slideNumber1 = Array.from(slides1).indexOf(activeSlide1) + 1;
+  quiz1.querySelector('.section__quiz-nav-left-active').textContent = slideNumber1;
+}
+
+// Функция для отображения определенного слайда
+function showSlide1(index) {
+    // Проверка, нужно ли показать кнопку "Назад"
+    if (index === 0) {
+        prevButton1.style.display = 'none';
+    } else {
+        prevButton1.style.display = 'block';
+    }
+
+
+    // Обновление счетчика
+    updateSlideCounter1();
+
+    // Блокировка/разблокировка кнопки "Далее"
+    if (index === slides.length - 1) {
+        nextButton1.classList.remove('section__quiz-navigation-next-disable');
+    } else {
+        nextButton1.classList.add('section__quiz-navigation-next-disable');
+    }
+}
+
+// Обработчики событий для кликов по изображениям
+slideImgs1.forEach((img1) => {
+    img1.addEventListener('click', () => {
+        // Убрать класс у всех изображений
+        slideImgs1.forEach((img1) => {
+            img1.classList.remove('section__quiz-slide-other-item-checked');
+        });
+        // Добавить класс выбранному изображению
+        img1.classList.add('section__quiz-slide-other-item-checked');
+
+        // Разблокировать кнопку "Далее"
+        nextButton1.classList.remove('section__quiz-navigation-next-disable');
+    });
+});
+
+nextButton1.addEventListener('click', () => {
+    currentSlideIndex1++;
+    showSlide1(currentSlideIndex);
+  
+  
+  });
+  

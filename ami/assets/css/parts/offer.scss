@@ -265,3 +265,79 @@
     }
     
 }
+
+.section__offer-usl{
+    overflow-y: visible;
+}
+
+.section__offer-uslugi-inner {
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+    .section__offer-slide {
+        height: 46rem;
+        width: 100%;
+        padding: 0rem;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--gradients, linear-gradient(119deg, #DEEFFF 0%, #F9FAFB 96.64%));
+    }
+    .section__offer-slide-calc {
+        .button {
+            margin-top: 3rem;
+            align-self: flex-start;
+        }
+        .section__offer-slide-left {
+            width: 100%;
+            max-width: 37rem;
+    
+        }
+        .section__offer-slide-img {
+            width: 100%;
+            max-width: 36rem;
+            height:37.7rem;
+            transform: rotate(3.014deg);
+            right: -6.662px;
+            bottom: -73.204px;
+        }
+    }
+    .section__offer-slide-left {
+        width: 100%;
+
+
+    }
+    .section__offer-slide-left-title {
+    }
+    .section__offer-slide-left-subtitle {
+    }
+    .section__visit-left-form {
+    }
+    .section__visit-left-form-top {
+    }
+    .section__visit-left-input {
+    }
+
+    .custom__chexbox-inner {
+    }
+    .custom-checkbox {
+    }
+    .custom-checkbox-text {
+    }
+    .section__offer-slide-img {
+        width: 100%;
+        max-width: 56.3rem;
+        height: 49.4rem;
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+  
+    .section__offer-slide-left-title-small {
+        color: var(--neutral-900, #111C27);
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 31.2px */
+    }
+}
