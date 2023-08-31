@@ -5966,13 +5966,18 @@ body {
             column-gap: 0.8rem;
     margin-top: 2.4rem;
   }
+  .section__visit-left-form .button {
+    max-width: 13.4rem;
+  }
   .section__visit-left-input {
+    text-align: center;
     max-width: 24.8rem;
+    width: 24.8rem;
     font-size: 1.5rem;
     padding: 0.8rem 3.5rem;
   }
   .section__visit-left-row {
-    margin-top: 2.4rem;
+    margin-top: 2rem;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -6018,7 +6023,7 @@ body {
     margin-right: -10rem;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 576px) {
   .section__visit {
     padding-top: 3.5rem;
     margin-bottom: 3.5rem;
@@ -6051,7 +6056,7 @@ body {
     -webkit-column-gap: 0.8rem;
        -moz-column-gap: 0.8rem;
             column-gap: 0.8rem;
-    margin-top: 2.4rem;
+    margin-top: 2rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -6059,6 +6064,7 @@ body {
   }
   .section__visit-left-form .button {
     width: 100%;
+    max-width: none;
     text-align: center;
   }
   .section__visit-left-input {
@@ -8155,6 +8161,7 @@ body {
   height: 46rem;
   width: 100%;
   padding: 0rem;
+  padding-left: 7.7rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -8163,6 +8170,14 @@ body {
           align-items: center;
   background: var(--gradients, linear-gradient(119deg, #DEEFFF 0%, #F9FAFB 96.64%));
 }
+.section__offer-uslugi-inner .section__offer-slide .custom__chexbox-inner {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.section__offer-uslugi-inner .section__offer-slide-calc {
+  overflow: hidden;
+}
 .section__offer-uslugi-inner .section__offer-slide-calc .button {
   margin-top: 3rem;
   -ms-flex-item-align: start;
@@ -8170,7 +8185,7 @@ body {
 }
 .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-left {
   width: 100%;
-  max-width: 37rem;
+  max-width: 40rem;
 }
 .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-img {
   width: 100%;
@@ -8178,11 +8193,24 @@ body {
   height: 37.7rem;
   -webkit-transform: rotate(3.014deg);
           transform: rotate(3.014deg);
-  right: -6.662px;
-  bottom: -73.204px;
+  right: -0.6662rem;
+  bottom: -4.3204rem;
+}
+.section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-left-title {
+  max-width: none;
+  font-size: 2.6rem;
 }
 .section__offer-uslugi-inner .section__offer-slide-left {
   width: 100%;
+  padding: 0px;
+  max-width: 49rem;
+}
+.section__offer-uslugi-inner .section__offer-slide-left-title {
+  max-width: none;
+  font-size: 3.2rem;
+}
+.section__offer-uslugi-inner .section__offer-slide-left-subtitle {
+  margin-top: 2rem;
 }
 .section__offer-uslugi-inner .section__offer-slide-img {
   width: 100%;
@@ -8190,7 +8218,7 @@ body {
   height: 49.4rem;
   position: relative;
   right: 0;
-  bottom: 0;
+  bottom: 2rem;
 }
 .section__offer-uslugi-inner .section__offer-slide-left-title-small {
   color: var(--neutral-900, #111C27);
@@ -8200,6 +8228,179 @@ body {
   line-height: 120%; /* 31.2px */
 }
 
+@media (max-width: 992px) {
+  .section__offer-uslugi-inner {
+    overflow: visible;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1.6rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide {
+    position: relative;
+    height: 36rem;
+    width: 100%;
+    padding-left: 3.2rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide .custom__chexbox-inner {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc {
+    overflow: hidden;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .button {
+    margin-top: 3rem;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-left {
+    width: 100%;
+    max-width: 39rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-img {
+    width: 100%;
+    max-width: 22.8rem;
+    height: 24rem;
+    position: relative;
+    -webkit-transform: rotate(3.014deg);
+            transform: rotate(3.014deg);
+    right: 0rem;
+    bottom: -6.3204rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-left-title {
+    max-width: none;
+    font-size: 2.6rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left {
+    width: 100%;
+    padding: 0px;
+    max-width: 49rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left-title {
+    font-size: 3.2rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left-subtitle {
+    margin-top: 1.6rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-img {
+    display: block;
+    max-width: 30.1rem;
+    position: absolute;
+    height: 36.9rem;
+    right: 0;
+    bottom: 0rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left-title-small {
+    color: var(--neutral-900, #111C27);
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 750px) {
+  .section__offer-uslugi-inner .section__offer-slide-img {
+    position: relative;
+  }
+}
+.section__offer-slide-img-mob {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .section__offer-uslugi-inner {
+    overflow: visible;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1.6rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    width: 100%;
+    padding-left: 0rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide .custom__chexbox-inner {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc {
+    overflow: hidden;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .button {
+    margin-top: 2rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: none;
+    width: 100%;
+    text-align: center;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-left {
+    width: 100%;
+    max-width: none;
+    padding: 2.4rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-img {
+    display: none;
+    width: 100%;
+    max-width: 22.9rem;
+    margin-top: 5.6rem;
+    height: 24rem;
+    position: relative;
+    right: auto;
+    bottom: auto;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-img-mob {
+    display: block;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-calc .section__offer-slide-left-title {
+    max-width: none;
+    font-size: 2.6rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left {
+    width: 100%;
+    padding: 2.4rem;
+    max-width: none;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left .section__visit-left-form {
+    margin-top: 2rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left-title {
+    font-size: 2rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left-subtitle {
+    margin-top: 2rem;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-img {
+    display: block;
+    max-width: 32.6rem;
+    height: 31.8rem;
+    position: relative;
+    right: auto;
+    bottom: auto;
+  }
+  .section__offer-uslugi-inner .section__offer-slide-left-title-small {
+    color: var(--neutral-900, #111C27);
+    font-size: 2.6rem;
+  }
+}
 .section__garancy {
   margin-top: 4.6rem;
   margin-bottom: 4.6rem;

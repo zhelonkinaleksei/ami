@@ -276,21 +276,26 @@
     flex-direction: column;
     row-gap: 1.6rem;
     .section__offer-slide {
+        .custom__chexbox-inner{
+            align-items: flex-start;
+        }
         height: 46rem;
         width: 100%;
         padding: 0rem;
+        padding-left: 7.7rem;
         justify-content: space-between;
         align-items: center;
         background: var(--gradients, linear-gradient(119deg, #DEEFFF 0%, #F9FAFB 96.64%));
     }
     .section__offer-slide-calc {
+        overflow: hidden;
         .button {
             margin-top: 3rem;
             align-self: flex-start;
         }
         .section__offer-slide-left {
             width: 100%;
-            max-width: 37rem;
+            max-width: 40rem;
     
         }
         .section__offer-slide-img {
@@ -298,39 +303,37 @@
             max-width: 36rem;
             height:37.7rem;
             transform: rotate(3.014deg);
-            right: -6.662px;
-            bottom: -73.204px;
+            right: -0.6662rem;
+            bottom: -4.3204rem;
+            
+        }
+        .section__offer-slide-left-title {
+            max-width: none;
+            font-size: 2.6rem;
         }
     }
     .section__offer-slide-left {
         width: 100%;
+        padding: 0px;
+        max-width: 49rem;
 
 
     }
     .section__offer-slide-left-title {
+        max-width: none;
+        font-size: 3.2rem;
     }
     .section__offer-slide-left-subtitle {
-    }
-    .section__visit-left-form {
-    }
-    .section__visit-left-form-top {
-    }
-    .section__visit-left-input {
+        margin-top: 2rem;
     }
 
-    .custom__chexbox-inner {
-    }
-    .custom-checkbox {
-    }
-    .custom-checkbox-text {
-    }
     .section__offer-slide-img {
         width: 100%;
         max-width: 56.3rem;
         height: 49.4rem;
         position: relative;
         right: 0;
-        bottom: 0;
+        bottom: 2rem;
     }
   
     .section__offer-slide-left-title-small {
@@ -340,4 +343,179 @@
         font-weight: 500;
         line-height: 120%; /* 31.2px */
     }
+}
+
+
+@media(max-width:992px){
+    
+    .section__offer-uslugi-inner {
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.6rem;
+        .section__offer-slide {
+            position: relative;
+            .custom__chexbox-inner{
+                align-items: flex-start;
+            }
+            height: 36rem;
+            width: 100%;
+            padding-left: 3.2rem;
+        }
+        .section__offer-slide-calc {
+            overflow: hidden;
+            .button {
+                margin-top: 3rem;
+                align-self: flex-start;
+            }
+            .section__offer-slide-left {
+                width: 100%;
+                max-width: 39rem;
+        
+            }
+            .section__offer-slide-img {
+                width: 100%;
+                max-width: 22.8rem;
+                height:24rem;
+                position: relative;
+                transform: rotate(3.014deg);
+                right: 0rem;
+                bottom: -6.3204rem;
+                
+            }
+            .section__offer-slide-left-title {
+                max-width: none;
+                font-size: 2.6rem;
+            }
+        }
+        .section__offer-slide-left {
+            width: 100%;
+            padding: 0px;
+            max-width: 49rem;
+    
+    
+        }
+        .section__offer-slide-left-title {
+            font-size: 3.2rem;
+        }
+        .section__offer-slide-left-subtitle {
+            margin-top: 1.6rem;
+        }
+    
+        .section__offer-slide-img {
+            display: block;
+            max-width: 30.1rem;
+            position: absolute;
+            height: 36.9rem;;
+            right: 0;
+            bottom: 0rem;
+        }
+      
+        .section__offer-slide-left-title-small {
+            color: var(--neutral-900, #111C27);
+            font-size: 2.6rem;
+        }
+    }
+    
+}
+
+@media(max-width:750px){
+    .section__offer-uslugi-inner {
+        
+    
+        .section__offer-slide-img {
+            position: relative;
+        }
+      
+        
+    }
+}
+.section__offer-slide-img-mob{
+    display: none;
+}
+@media(max-width:576px){
+    
+    .section__offer-uslugi-inner {
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.6rem;
+        .section__offer-slide {
+            position: relative;
+            flex-direction: column-reverse;
+            align-items: center;
+            .custom__chexbox-inner{
+                align-items: flex-start;
+            }
+            height: auto;
+            width: 100%;
+            padding-left: 0rem;
+        }
+        .section__offer-slide-calc {
+            overflow: hidden;
+            .button {
+                margin-top: 2rem;
+                align-self: center;
+                max-width: none;
+                width: 100%;
+                text-align: center;
+            }
+            .section__offer-slide-left {
+                width: 100%;
+                max-width: none;
+                padding: 2.4rem;
+
+        
+            }
+            .section__offer-slide-img {
+                display: none;
+                width: 100%;
+                max-width: 22.9rem;
+                margin-top: 5.6rem;
+                height:24rem;
+                position: relative;
+                right:auto;
+                bottom: auto;
+                
+            }
+            .section__offer-slide-img-mob{
+                display: block;
+            }
+            .section__offer-slide-left-title {
+                max-width: none;
+                font-size: 2.6rem;
+            }
+        }
+        .section__offer-slide-left {
+            width: 100%;
+            padding:2.4rem;
+            max-width: none;
+            .section__visit-left-form{
+                margin-top: 2rem;
+            }
+    
+    
+        }
+        .section__offer-slide-left-title {
+            font-size: 2rem;
+        }
+        .section__offer-slide-left-subtitle {
+            margin-top: 2rem;
+        }
+    
+        .section__offer-slide-img {
+            display: block;
+            max-width: 32.6rem;
+            height: 31.8rem;
+            position:relative;
+            right:auto;
+            bottom:auto;
+        }
+      
+        .section__offer-slide-left-title-small {
+            color: var(--neutral-900, #111C27);
+            font-size: 2.6rem;
+        }
+    }
+    
 }

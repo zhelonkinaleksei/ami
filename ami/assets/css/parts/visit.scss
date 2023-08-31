@@ -185,17 +185,20 @@
         column-gap: 0.8rem;
         margin-top: 2.4rem;
         .button {
+            max-width: 13.4rem;
         }
     }
     .section__visit-left-input {
+        text-align: center;
         max-width: 24.8rem;
+        width: 24.8rem;
         font-size: 1.5rem;
         padding: 0.8rem 3.5rem;
     
     }
     
     .section__visit-left-row {
-        margin-top: 2.4rem;
+        margin-top: 2rem;
         justify-content: flex-start;
         flex-direction: column;
         row-gap: 1rem;
@@ -241,7 +244,7 @@
 }
 
 
-@media(max-width:992px){
+@media(max-width:576px){
     .section__visit{
         padding-top: 3.5rem;
         margin-bottom: 3.5rem;
@@ -268,10 +271,11 @@
         row-gap: 1.6rem;
         display: flex;
         column-gap: 0.8rem;
-        margin-top: 2.4rem;
+        margin-top: 2rem;
         flex-direction: column;
         .button {
             width: 100%;
+            max-width: none;
             text-align: center;
         }
     }
